@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-team",
           title: "team",
-          description: "Meet the researchers at the Busatto Lab.",
+          description: "Meet the researchers at the Biological Nanoparticles Laboratory.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/team/";
