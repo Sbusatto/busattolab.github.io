@@ -53,7 +53,7 @@ ninja.data = [{
           },
         },{id: "nav-teaching",
           title: "teaching",
-          description: "Course materials, schedules, and resources for classes taught.",
+          description: "Courses, workshops, and lectures by Dr. Busatto.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
