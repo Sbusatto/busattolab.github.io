@@ -1,15 +1,33 @@
 ---
 layout: page
-permalink: /teaching/
 title: teaching
-description: Course materials, schedules, and resources for classes taught.
+permalink: /teaching/
+description: Courses, workshops, and lectures by Dr. Busatto.
 nav: true
 nav_order: 6
-calendar: true
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
+## Upcoming & Current Courses
 
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
+**[Placeholder: Course Code - Course Name]**
+* **Role:** [e.g., Lead Instructor / Guest Lecturer]
+* **Term:** Fall 2026
+* **Description:** [1-2 sentences about what the course covers.]
+* **Syllabus:** [Link to PDF if you have one, or just delete this line]
 
-{% include courses.liquid %}
+---
+
+## Past Teaching Experience
+
+**[Placeholder: Past Course Name]** * **Institution:** [University Name]
+* **Term:** Spring 2025
+
+**[Placeholder: Past Workshop Name]** * **Institution:** [Conference/University Name]
+* **Term:** Winter 2024
+
+---
+
+## Office Hours & Schedule
+*(If you have regular office hours, you can list them here!)*
+* **Tuesdays:** 10:00 AM - 12:00 PM (Room [Number])
+* **Thursdays:** 2:00 PM - 4:00 PM (Room [Number])
