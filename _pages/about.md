@@ -36,3 +36,9 @@ Our independent research lines are currently centered on three main pillars:
 ### Latest News
 * **January 2025:** Welcome to our new lab members: Ph.D. student Sjoerd Idzerda, and MSc students Laura Sikkens, Sterre Metz, and Kaj Mulder!
 * **November 2024:** Dr. Busatto officially joins the University of Groningen as a Tenure-Track Assistant Professor and head of the Biological Nanoparticles Laboratory.
+
+---
+
+### Patents
+We are committed to translating our bench discoveries into real-world technological and clinical applications.
+* **S. Busatto**, M.A. Moses, et al. *Machine learning methods for determining cell morphology and motility.* Provisional Application Filing C1233.70300US00, United States.
