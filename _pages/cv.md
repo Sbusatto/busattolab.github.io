@@ -8,14 +8,14 @@ nav_order: 7
 ---
 
 <div class="row justify-content-center">
-  <a href="#" class="btn btn-primary z-depth-0" role="button">Download PDF CV</a>
+  <a href="{{ '/assets/pdf/cv_sara_busatto.pdf' | relative_url }}" target="_blank" class="btn btn-primary z-depth-0" role="button" style="margin: 5px;">Download Full CV</a>
+  <a href="{{ '/assets/pdf/resume_sara_busatto.pdf' | relative_url }}" target="_blank" class="btn btn-primary z-depth-0" role="button" style="margin: 5px;">Download Resume</a>
 </div>
 
 <br>
 
 ### Summary
-Tenure-track Assistant Professor, independent investigator, and head of the Biological Nanoparticles Laboratory within the Nanomedicine and Drug Targeting Unit at the Groningen Research Institute of Pharmacy. Independent and driven researcher with proven results in the isolation, characterization, loading, and engineering of biological cell-derived nanoparticles, in particular, extracellular vesicles. 
-
+Tenure-track Assistant Professor, independent investigator, and head of the Biological Nanoparticles Laboratory within the Nanomedicine and Drug Targeting Unit at the Groningen Research Institute of Pharmacy. Independent and driven researcher with proven results in the isolation, characterization, loading, and engineering of biological cell-derived nanoparticles, in particular, extracellular vesicles.
 ---
 
 ### Professional Experience
