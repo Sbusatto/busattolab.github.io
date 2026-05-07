@@ -14,8 +14,8 @@ profile:
     <p>Department of Your Department</p>
     <p>Your University Name</p>
     <p>City, Country</p>
-    <p><a href="mailto:your.email@university.edu">your.email@university.edu</a></p>
----
+    <p><a href="mailto:your.email@university.edu">your.email@university.edu</a></p> 
+    
 ---
 
 ## Welcome to Busatto LAB
