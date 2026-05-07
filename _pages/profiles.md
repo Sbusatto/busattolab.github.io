@@ -1,28 +1,50 @@
 ---
-layout: profiles
-permalink: /people/
-title: people
-description: members of the lab or group
+layout: page
+title: team
+permalink: /team/
+description: Meet the researchers at the Busatto Lab.
 nav: true
-nav_order: 7
-
-profiles:
-  # if you want to include more than one profile, just replicate the following block
-  # and create one content file for each profile inside _pages/
-  - align: right
-    image: prof_pic.jpg
-    content: about_einstein.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
-  - align: left
-    image: prof_pic.jpg
-    content: about_einstein.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
+nav_order: 4
 ---
+
+## Principal Investigator
+
+**Dr. Sara Busatto**
+*Principal Investigator*
+[Placeholder: 1-2 sentences about your background, e.g., "Dr. Busatto received her Ph.D. from X and focuses on Y..."]
+
+---
+
+## Current Lab Members
+
+**[Placeholder: Lab Member Name]**
+*Postdoctoral Researcher*
+[Placeholder: 1 sentence about their specific project or expertise.]
+
+**[Placeholder: Lab Member Name]**
+*Ph.D. Student*
+[Placeholder: 1 sentence about their thesis topic.]
+
+**[Placeholder: Lab Member Name]**
+*Ph.D. Student*
+[Placeholder: 1 sentence about their thesis topic.]
+
+**[Placeholder: Lab Member Name]**
+*Ph.D. Student*
+[Placeholder: 1 sentence about their thesis topic.]
+
+**[Placeholder: Lab Member Name]**
+*Ph.D. Student*
+[Placeholder: 1 sentence about their thesis topic.]
+
+**[Placeholder: Lab Member Name]**
+*Ph.D. Student*
+[Placeholder: 1 sentence about their thesis topic.]
+
+---
+
+## Join the Lab!
+We are always looking for motivated researchers to join our team. 
+
+* **Prospective Postdocs:** Please send a CV, a brief cover letter outlining your research interests, and contact information for 3 references to [your.email@university.edu].
+* **Prospective Graduate Students:** Please apply through the [Name of University/Program] and mention your interest in the Busatto Lab.
