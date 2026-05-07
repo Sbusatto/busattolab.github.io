@@ -451,7 +451,12 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "teachings-data-science-fundamentals",
+          section: "News",},{id: "projects-breast-to-brain-metastasis",
+          title: 'Breast to Brain Metastasis',
+          description: "Investigating the role of cancer-derived EVs in the early steps of metastasis.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/1_metastasis/";
+            },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
           section: "Teachings",handler: () => {
