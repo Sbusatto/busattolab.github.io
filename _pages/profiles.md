@@ -2,7 +2,7 @@
 layout: page
 title: team
 permalink: /team/
-description: Meet the researchers at the Busatto Lab.
+description: Meet the researchers at the Biological Nanoparticles Laboratory.
 nav: true
 nav_order: 4
 ---
@@ -11,40 +11,36 @@ nav_order: 4
 
 **Dr. Sara Busatto**
 *Principal Investigator*
-[Placeholder: 1-2 sentences about your background, e.g., "Dr. Busatto received her Ph.D. from X and focuses on Y..."]
+Dr. Busatto is a Tenure-track Assistant Professor and head of the Biological Nanoparticles Laboratory within the Nanomedicine and Drug Targeting Unit at the Groningen Research Institute of Pharmacy. Her research focuses on the isolation, characterization, loading, and engineering of extracellular vesicles (EVs).
 
 ---
 
 ## Current Lab Members
 
-**[Placeholder: Lab Member Name]**
-*Postdoctoral Researcher*
-[Placeholder: 1 sentence about their specific project or expertise.]
-
-**[Placeholder: Lab Member Name]**
+**Sjoerd Idzerda**
 *Ph.D. Student*
-[Placeholder: 1 sentence about their thesis topic.]
+Joined January 2025
 
-**[Placeholder: Lab Member Name]**
-*Ph.D. Student*
-[Placeholder: 1 sentence about their thesis topic.]
+**Marloes Kruk**
+*Research Assistant*
+Joined November 2024
 
-**[Placeholder: Lab Member Name]**
-*Ph.D. Student*
-[Placeholder: 1 sentence about their thesis topic.]
+**Laura Sikkens**
+*MSc. Student*
+Joined January 2026
 
-**[Placeholder: Lab Member Name]**
-*Ph.D. Student*
-[Placeholder: 1 sentence about their thesis topic.]
+**Sterre Metz**
+*MSc. Student*
+Joined January 2026
 
-**[Placeholder: Lab Member Name]**
-*Ph.D. Student*
-[Placeholder: 1 sentence about their thesis topic.]
+**Kaj Mulder**
+*MSc. Student*
+Joined January 2026
 
 ---
 
 ## Join the Lab!
-We are always looking for motivated researchers to join our team. 
+We are always looking for motivated researchers to join our team at the University of Groningen. 
 
-* **Prospective Postdocs:** Please send a CV, a brief cover letter outlining your research interests, and contact information for 3 references to [your.email@university.edu].
-* **Prospective Graduate Students:** Please apply through the [Name of University/Program] and mention your interest in the Busatto Lab.
+* **Prospective Postdocs:** Please send a CV, a brief cover letter outlining your research interests, and contact information for references to [s.busatto@rug.nl](mailto:s.busatto@rug.nl).
+* **Prospective Graduate & MSc Students:** Please reach out to discuss potential projects in the Biological Nanoparticles Laboratory.
