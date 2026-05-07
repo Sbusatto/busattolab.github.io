@@ -8,6 +8,7 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: true
+  
   more_info: >
   <p>Principal Investigator</p>
   <p>Department of [Your Department]</p>
