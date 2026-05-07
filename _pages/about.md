@@ -1,35 +1,33 @@
 ---
----
 layout: about
 title: about
 permalink: /
-subtitle: [Placeholder: Principal Investigator @ Your Institution]
+subtitle: Principal Investigator @ Busatto LAB
 
 profile:
   align: right
-  image: prof_pic.jpg  # We will upload your actual photo later
-  image_circular: true # Makes it look elegant and modern like Flavia's
+  image: prof_pic.jpg
+  image_circular: true
   more_info: >
-    <p>[Placeholder: Office Number]</p>
-    <p>[Placeholder: Full University Address]</p>
----
+    <p>Busatto LAB</p>
+    <p>University Address</p>
 ---
 
 ## Welcome to Busatto LAB
 
-*[Placeholder: Main Banner Image - Team or Research Theme. Size: 1920x1080px]*
+*[Placeholder: Main Banner Image of Lab Team or Research Focus]*
 
-[Insert 2-3 sentences here about the lab's core mission. Why does this lab exist?]
+[Insert Lab Introduction Here: Write 1-2 paragraphs giving a high-level overview of what the lab does. What is the main problem you are trying to solve?]
 
 ---
 
-### Current Research Focus
-Our lab operates at the intersection of [Field A] and [Field B]. We are currently investigating:
-- **[Pillar 1]:** [Description of placeholder research topic]
-- **[Pillar 2]:** [Description of placeholder research topic]
+### Our Core Focus
+* **[Placeholder: Theme 1]** - [Brief description]
+* **[Placeholder: Theme 2]** - [Brief description]
+* **[Placeholder: Theme 3]** - [Brief description]
 
 ---
 
 ### Latest News
-- **May 2026:** [Placeholder: New Grant Awarded or Paper Published!]
-- **April 2026:** [Placeholder: Lab member presented at Conference X.]
+* **May 2026:** [Placeholder: New paper published!]
+* **April 2026:** [Placeholder: Welcome to our new lab members.]
