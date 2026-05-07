@@ -1,11 +1,10 @@
 ---
 layout: page
-title: projects
+title: research
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Our lab investigates [1-sentence summary of your niche]. We are currently focused on the following pillars.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
 horizontal: false
 ---
 
