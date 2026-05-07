@@ -8,8 +8,8 @@ nav_order: 7
 ---
 
 <div class="row justify-content-center">
-  <a href="{{ '/assets/pdf/cv_sara_busatto.pdf' | relative_url }}" target="_blank" class="btn btn-primary z-depth-0" role="button" style="margin: 5px;">Download Full CV</a>
-  <a href="{{ '/assets/pdf/resume_sara_busatto.pdf' | relative_url }}" target="_blank" class="btn btn-primary z-depth-0" role="button" style="margin: 5px;">Download Resume</a>
+  <a href="{{ '/assets/pdf/cv_sara_busatto.pdf' | relative_url }}" target="_blank" class="btn btn-outline-secondary z-depth-0" role="button" style="margin: 5px;"><i class="fas fa-file-pdf"></i> Download Full CV</a>
+  <a href="{{ '/assets/pdf/resume_sara_busatto.pdf' | relative_url }}" target="_blank" class="btn btn-outline-secondary z-depth-0" role="button" style="margin: 5px;"><i class="fas fa-file-pdf"></i> Download Resume</a>
 </div>
 
 <br>
