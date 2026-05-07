@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-team",
           title: "team",
-          description: "Meet the researchers at the Busatto Lab.",
+          description: "Meet the researchers at the Biological Nanoparticles Laboratory.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/team/";
@@ -36,13 +36,6 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
-          },
-        },{id: "nav-cv",
-          title: "CV",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
           },
         },{id: "nav-publications",
           title: "publications",
@@ -57,6 +50,13 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
+          },
+        },{id: "nav-cv",
+          title: "cv",
+          description: "A summary of Dr. Busatto&#39;s professional experience, education, and skills.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
           },
         },{id: "dropdown-bookshelf",
               title: "bookshelf",
@@ -461,6 +461,11 @@ ninja.data = [{
           description: "Loading and engineering EV-mimetics as biocompatible targeted vehicles.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_drug_delivery/";
+            },},{id: "projects-the-biomolecular-corona",
+          title: 'The Biomolecular Corona',
+          description: "Studying the formation and composition of the biomolecular corona of cancer-derived EVs.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_corona/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
