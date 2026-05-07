@@ -456,6 +456,16 @@ ninja.data = [{
           description: "Investigating the role of cancer-derived EVs in the early steps of metastasis.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_metastasis/";
+            },},{id: "projects-ev-mimetics-amp-drug-delivery",
+          title: 'EV-Mimetics &amp;amp; Drug Delivery',
+          description: "Loading and engineering EV-mimetics as biocompatible targeted vehicles.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_drug_delivery/";
+            },},{id: "projects-the-biomolecular-corona",
+          title: 'The Biomolecular Corona',
+          description: "Studying the formation and composition of the biomolecular corona of cancer-derived EVs.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_corona/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
