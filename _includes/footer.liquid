@@ -1,30 +1,6 @@
-{% capture footer_contents %}
-  &copy; Copyright {{ site.time | date: '%Y' }}
-  {{ site.first_name }}
-  {{ site.middle_name }}
-  {{ site.last_name }}. {{ site.footer_text }}
-  {% if site.impressum_path %}
-    <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
-  {% endif %}
-  {% if site.last_updated %}
-    Last updated: {{ 'now' | date: '%B %d, %Y' }}.
-  {% endif %}
-{% endcapture %}
-
-{% if site.footer_fixed %}
-  <footer class="fixed-bottom" role="contentinfo">
-    <div class="container mt-0">
-      {{ footer_contents }}
-    </div>
-  </footer>
-{% else %}
-  <footer class="sticky-bottom mt-5" role="contentinfo">
-    {% if site.newsletter.enabled %}
-      {% include newsletter.liquid %}
-    {% endif %}
-
-    <div class="container">
-      {{ footer_contents }}
-    </div>
-  </footer>
-{% endif %}
+<footer class="{% if site.footer_fixed %}fixed-bottom{% else %}sticky-bottom mt-5{% endif %}" style="background-color: var(--global-footer-bg-color); color: var(--global-footer-text-color); border-top: 1px solid var(--global-divider-color);">
+  <div class="container" style="text-align: center; padding-top: 20px; padding-bottom: 20px; font-size: 0.9em;">
+    <strong>Biological Nanoparticles Laboratory</strong> &bull; Groningen Research Institute of Pharmacy &bull; University of Groningen <br>
+    Groningen, The Netherlands &bull; <a href="mailto:s.busatto@rug.nl" style="color: #E3000F;">s.busatto@rug.nl</a>
+  </div>
+</footer>
