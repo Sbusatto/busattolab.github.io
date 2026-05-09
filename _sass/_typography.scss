@@ -150,3 +150,19 @@ a:hover {
   background-color: #E3000F !important;
   color: #ffffff !important;
 }
+
+/* 1. Import new Logo-matching font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+
+body, h1, h2, h3, h4, h5, h6, .navbar-brand, .nav-link, p, a, div {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+/* 2. Force Header width to exactly match the Body width */
+.navbar > .container,
+.container {
+  max-width: 900px !important; 
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
