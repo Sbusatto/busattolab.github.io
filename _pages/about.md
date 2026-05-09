@@ -9,12 +9,6 @@ permalink: /
   .post-header { display: none !important; }
 </style>
 
-<!-- Dynamic Logo Block (Guaranteed to swap perfectly) -->
-<div class="text-center mb-5 mt-3">
-  <img src="{{ '/assets/img/logo.png' | relative_url }}" alt="Bionano Lab Logo" class="img-fluid only-light" style="max-width: 500px; margin: 0 auto;">
-  <img src="{{ '/assets/img/logo_dark.png' | relative_url }}" alt="Bionano Lab Logo" class="img-fluid only-dark" style="max-width: 500px; margin: 0 auto;">
-</div>
-
 **Decoding Extracellular Vesicles to Defeat Metastasis**
 
 Welcome to the **Biological Nanoparticles Laboratory**. We are an independent research group within the **Nanomedicine and Drug Delivery Department** at the Groningen Research Institute of Pharmacy (University of Groningen). Led by **Dr. Sara Busatto**—following her tenure at **Harvard Medical School** and **Boston Children’s Hospital**—our lab focuses on the intersection of biological nanoparticles and cancer progression. We investigate the critical role of **Extracellular Vesicles (EVs)** in driving **Breast-to-Brain Metastasis** and leverage these insights to engineer targeted, next-generation **EV-mimetic therapeutics**.
