@@ -23,13 +23,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/patents/";
           },
-        },{id: "nav-research",
-          title: "research",
-          description: "Our lab investigates [1-sentence summary of your niche]. We are currently focused on the following pillars.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
-          },
         },{id: "nav-team",
           title: "team",
           description: "Meet the researchers at the Biological Nanoparticles Laboratory.",
