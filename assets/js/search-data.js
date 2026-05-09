@@ -30,9 +30,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-join",
-          title: "join",
-          description: "Information for prospective students and postdocs.",
+        },{id: "nav-join-contact",
+          title: "Join / Contact",
+          description: "Information for prospective students, postdocs, and general inquiries.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/join/";
