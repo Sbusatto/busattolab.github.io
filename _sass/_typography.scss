@@ -134,3 +134,19 @@ blockquote {
     }
   }
 }
+
+/* University of Groningen Red for hovered links */
+a:hover {
+  color: #E3000F !important;
+}
+
+/* University of Groningen Red for highlighted/selected text */
+::selection {
+  background-color: #E3000F !important;
+  color: #ffffff !important;
+}
+
+::-moz-selection {
+  background-color: #E3000F !important;
+  color: #ffffff !important;
+}
