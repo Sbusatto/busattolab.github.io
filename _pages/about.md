@@ -9,10 +9,10 @@ permalink: /
   .post-header { display: none !important; }
 </style>
 
-<!-- Dynamic Logo Block -->
+<!-- Dynamic Logo Block (Guaranteed to swap perfectly) -->
 <div class="text-center mb-5 mt-3">
-  <img src="{{ '/assets/img/logo.png' | relative_url }}" alt="Bionano Lab Logo" class="img-fluid logo-light" style="max-width: 500px;">
-  <img src="{{ '/assets/img/logo_dark.png' | relative_url }}" alt="Bionano Lab Logo" class="img-fluid logo-dark" style="max-width: 500px;">
+  <img src="{{ '/assets/img/logo.png' | relative_url }}" alt="Bionano Lab Logo" class="img-fluid only-light" style="max-width: 500px; margin: 0 auto;">
+  <img src="{{ '/assets/img/logo_dark.png' | relative_url }}" alt="Bionano Lab Logo" class="img-fluid only-dark" style="max-width: 500px; margin: 0 auto;">
 </div>
 
 **Decoding Extracellular Vesicles to Defeat Metastasis**
