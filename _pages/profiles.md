@@ -17,7 +17,7 @@ nav_order: 4
     <h4 style="color: #E3000F;">Dr. Sara Busatto</h4>
     <h6 class="text-muted">Principal Investigator</h6>
     <p>Dr. Busatto is a Tenure-track Assistant Professor and head of the Biological Nanoparticles Laboratory within the Nanomedicine and Drug Targeting Unit at the Groningen Research Institute of Pharmacy. Her research focuses on the isolation, characterization, loading, and engineering of extracellular vesicles (EVs).</p>
-    <a href="https://www.linkedin.com/in/sara-busatto/" target="_blank" style="color: #E3000F; text-decoration: none;"><i class="fab fa-linkedin fa-lg"></i> Connect on LinkedIn</a>
+    <a href="[https://www.linkedin.com/in/sara-busatto/](https://www.linkedin.com/in/sara-busatto-402035140/)" target="_blank" style="color: #E3000F; text-decoration: none;"><i class="fab fa-linkedin fa-lg"></i> Connect on LinkedIn</a>
   </div>
 </div>
 
