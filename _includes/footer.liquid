@@ -1,6 +1,29 @@
-<footer class="sticky-bottom mt-5" style="background-color: #2b2b2b !important; color: #ffffff !important; width: 100%;">
+<style>
+  /* 1. Default (Light Mode) Styling */
+  .custom-footer {
+    background-color: #ffffff;
+    color: #000000;
+    border-top: 1px solid #e0e0e0;
+  }
+  .custom-footer a.email-link {
+    color: #E3000F; /* Classic Brand Red for white backgrounds */
+  }
+  
+  /* 2. Dark Mode Styling */
+  html[data-theme="dark"] .custom-footer {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    border-top: 1px solid #333333;
+  }
+  html[data-theme="dark"] .custom-footer a.email-link {
+    color: #FF6B6B; /* Brighter Red for high contrast on black backgrounds */
+  }
+</style>
+
+<!-- 3. The Footer Structure -->
+<footer class="custom-footer mt-5" style="position: relative; bottom: 0; width: 100%;">
   <div class="container" style="text-align: center; padding-top: 20px; padding-bottom: 20px; font-size: 0.95em; letter-spacing: 0.5px;">
     <strong>Bionano Lab</strong> &bull; Department of Nanomedicine &bull; University of Groningen <br>
-    <a href="mailto:s.busatto@rug.nl" style="color: #FF6B6B; text-decoration: none; font-weight: 600;">s.busatto@rug.nl</a>
+    <a href="mailto:s.busatto@rug.nl" class="email-link" style="text-decoration: none; font-weight: 600;">s.busatto@rug.nl</a>
   </div>
 </footer>
