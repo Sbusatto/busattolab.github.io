@@ -15,11 +15,16 @@ permalink: /
   <img src="{{ '/assets/img/logo_dark.png' | relative_url }}" alt="Bionano Lab Logo" class="img-fluid only-dark" style="max-width: 400px; margin: 0 auto;">
 </div>
 
-**Decoding Extracellular Vesicles to Defeat Metastasis**
-
-Welcome to the **Biological Nanoparticles Laboratory**. We are an independent research group within the **Nanomedicine and Drug Delivery Department** at the Groningen Research Institute of Pharmacy (University of Groningen). Led by **Dr. Sara Busatto**—following her tenure at **Harvard Medical School** and **Boston Children’s Hospital**—our lab focuses on the intersection of biological nanoparticles and cancer progression. We investigate the critical role of **Extracellular Vesicles (EVs)** in driving **Breast-to-Brain Metastasis** and leverage these insights to engineer targeted, next-generation **EV-mimetic therapeutics**.
-
-<br>
+<!-- Centered Intro & Call to Action -->
+<div style="max-width: 800px; margin: 0 auto; text-align: center; padding: 0 15px;">
+  <h4 style="font-weight: 700; margin-bottom: 20px;">Decoding Extracellular Vesicles to Defeat Metastasis</h4>
+  
+  <p style="font-size: 1.1em; line-height: 1.6; color: var(--global-text-color);">
+    Welcome to the <strong>Biological Nanoparticles Laboratory</strong>. We are an independent research group within the <strong>Nanomedicine and Drug Delivery Department</strong> at the Groningen Research Institute of Pharmacy (University of Groningen). Led by <strong>Dr. Sara Busatto</strong>—following her tenure at <strong>Harvard Medical School</strong> and <strong>Boston Children’s Hospital</strong>—our lab focuses on the intersection of biological nanoparticles and cancer progression. We investigate the critical role of <strong>Extracellular Vesicles (EVs)</strong> in driving <strong>Breast-to-Brain Metastasis</strong> and leverage these insights to engineer targeted, next-generation <strong>EV-mimetic therapeutics</strong>.
+  </p>
+  
+  <a href="#our-research-pillars" class="btn mt-4 mb-5" style="background-color: #E3000F; color: #ffffff; padding: 12px 30px; border-radius: 30px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; text-decoration: none; display: inline-block; box-shadow: 0 4px 6px rgba(227, 0, 15, 0.3);">Explore Our Research Pillars</a>
+</div>
 
 ### Our Research Pillars
 <div class="row">
