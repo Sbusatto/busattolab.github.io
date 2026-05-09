@@ -4,6 +4,9 @@
     <div class="container">
       {% if page.permalink != '/' %}
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
+          <!-- LOGO INSERITO QUI -->
+          <img src="{{ '/assets/img/logo.png' | relative_url }}" height="35" style="margin-right: 10px; border-radius: 4px;" alt="Busatto Lab Logo">
+          
           {% if site.title == 'blank' %}
             {% if site.first_name %}
               <span class="font-weight-bold">
