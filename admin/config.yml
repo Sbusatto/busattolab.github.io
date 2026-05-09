@@ -1,7 +1,10 @@
 backend:
-  name: github
- repo: Sbusatto/busattolab.github.io
+  backend:
+  name: git-gateway
   branch: main
+
+publish_mode: editorial_workflow
+media_folder: "assets/img"
 
 # This is the magic line that creates the Approval System!
 publish_mode: editorial_workflow
