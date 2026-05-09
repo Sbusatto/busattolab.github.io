@@ -258,3 +258,22 @@ p {
   max-width: 100%; 
   line-height: 1.5 !important;
 }
+/* ---------------------------------------------------
+   Anchor Header to Bottom (Desktop Only)
+--------------------------------------------------- */
+@media (min-width: 992px) {
+  header .navbar {
+    position: fixed !important;
+    top: auto !important;
+    bottom: 0 !important;
+    width: 100%;
+    z-index: 1050;
+    /* Optional: Adds a subtle shadow above the header so it stands out */
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.05); 
+  }
+  
+  /* Adds space at the bottom of the webpage so the header doesn't cover your footer text */
+  body {
+    padding-bottom: 80px !important; 
+  }
+}
