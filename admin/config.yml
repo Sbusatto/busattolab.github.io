@@ -11,12 +11,67 @@ public_folder: "/assets/img"
 
 # Le sezioni modificabili dal team
 collections:
+  # 1. PAGINE SINGOLE (Homepage, Teaching, CV)
   - name: "pages"
     label: "Website Pages"
     files:
-      - label: "Homepage (About)"
-        name: "about"
-        file: "_pages/about.md"
+      - file: "index.md"
+        label: "Homepage (About)"
+        name: "home"
         fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body (Main Text)", name: "body", widget: "markdown"}
+          - {label: "Titolo", name: "title", widget: "string"}
+          - {label: "Contenuto", name: "body", widget: "markdown"}
+      - file: "teaching.md"
+        label: "Teaching"
+        name: "teaching"
+        fields:
+          - {label: "Titolo", name: "title", widget: "string"}
+          - {label: "Contenuto", name: "body", widget: "markdown"}
+      - file: "cv.md"
+        label: "Curriculum Vitae (CV)"
+        name: "cv"
+        fields:
+          - {label: "Titolo", name: "title", widget: "string"}
+          - {label: "Contenuto", name: "body", widget: "markdown"}
+
+  # 2. NEWS (Articoli con data)
+  - name: "news"
+    label: "News"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Titolo", name: "title", widget: "string"}
+      - {label: "Data", name: "date", widget: "datetime"}
+      - {label: "Contenuto", name: "body", widget: "markdown"}
+
+  # 3. TEAM (Membri del laboratorio)
+  - name: "team"
+    label: "Team"
+    folder: "_team"
+    create: true
+    fields:
+      - {label: "Nome e Cognome", name: "title", widget: "string"}
+      - {label: "Ruolo", name: "role", widget: "string"}
+      - {label: "Foto", name: "image", widget: "image", required: false}
+      - {label: "Biografia", name: "body", widget: "markdown"}
+
+  # 4. PATENTS (Brevetti)
+  - name: "patents"
+    label: "Patents"
+    folder: "_patents"
+    create: true
+    fields:
+      - {label: "Titolo Brevetto", name: "title", widget: "string"}
+      - {label: "Anno/Data", name: "date", widget: "string", required: false}
+      - {label: "Descrizione", name: "body", widget: "markdown"}
+
+  # 5. PUBLICATIONS (Con supporto codice BibTeX)
+  - name: "publications"
+    label: "Publications"
+    folder: "_publications"
+    create: true
+    fields:
+      - {label: "Titolo", name: "title", widget: "string"}
+      - {label: "Data", name: "date", widget: "datetime", required: false}
+      - {label: "Codice BibTeX", name: "body", widget: "code", default_language: "bibtex", hint: "Incolla qui il tuo codice BibTeX"}
