@@ -2,40 +2,22 @@
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
-      {% if page.permalink != '/' %}
-        <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
-  
+      
       <!-- LOGO SWAPPER FOR LIGHT/DARK MODE -->
-<style>
-  .logo-light { display: inline-block; }
-  .logo-dark { display: none; }
-  html[data-theme="dark"] .logo-light { display: none; }
-  html[data-theme="dark"] .logo-dark { display: inline-block; }
-</style>
+      <style>
+        .logo-light { display: inline-block; }
+        .logo-dark { display: none; }
+        html[data-theme="dark"] .logo-light { display: none; }
+        html[data-theme="dark"] .logo-dark { display: inline-block; }
+      </style>
 
-<img src="{{ '/assets/img/logo.png' | relative_url }}" height="60" class="logo-light" style="margin-right: 10px; border-radius: 4px;" alt="Busatto Lab Logo">
-<img src="{{ '/assets/img/logo_dark.png' | relative_url }}" height="60" class="logo-dark" style="margin-right: 10px; border-radius: 4px;" alt="Busatto Lab Logo">
-          
-          {% if site.title == 'blank' %}
-            {% if site.first_name %}
-              <span class="font-weight-bold">
-                {{- site.first_name -}}
-              </span>
-            {% endif %}
-            {% if site.middle_name %}
-              {{- site.middle_name -}}
-            {% endif %}
-            {% if site.last_name %}
-              {{- site.last_name -}}
-            {% endif %}
-          {% else %}
-            {{- site.title -}}
-          {% endif %}
-        </a>
-      {% elsif site.enable_navbar_social %}
-        <!-- Social Icons -->
-        <div class="navbar-brand social">{% social_links %}</div>
-      {% endif %}
+      <!-- Clickable Lab Logo pinned to the top left (Shows on all pages) -->
+      <a class="navbar-brand" href="{{ site.baseurl }}/" style="display: flex; align-items: center; text-decoration: none;">
+        <img src="{{ '/assets/img/logo.png' | relative_url }}" height="50" class="logo-light" style="margin-right: 12px;" alt="Bionano Lab Logo">
+        <img src="{{ '/assets/img/logo_dark.png' | relative_url }}" height="50" class="logo-dark" style="margin-right: 12px;" alt="Bionano Lab Logo">
+        <span style="font-weight: 600; color: var(--global-text-color);">Sara Busatto</span>
+      </a>
+
       <!-- Navbar Toggle -->
       <button
         class="navbar-toggler collapsed ml-auto"
