@@ -1,0 +1,24 @@
+backend:
+  name: github
+ repo: Sbusatto/busattolab.github.io
+  branch: main
+
+# This is the magic line that creates the Approval System!
+publish_mode: editorial_workflow
+
+# This tells the dashboard where to save newly uploaded photos
+media_folder: "assets/img"
+public_folder: "/assets/img"
+
+# Here we define what Sara's team is allowed to edit. 
+# We will start with just the Homepage for now to test it!
+collections:
+  - name: "pages"
+    label: "Website Pages"
+    files:
+      - label: "Homepage (About)"
+        name: "about"
+        file: "_pages/about.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body (Main Text)", name: "body", widget: "markdown"}
