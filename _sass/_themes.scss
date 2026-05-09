@@ -206,3 +206,10 @@ html[data-theme-setting="light"] {
 #light-toggle:hover .fa-half-sun-moon::after {
   color: var(--global-theme-color);
 }
+
+/* Widen the main container on Desktop ONLY */
+@media (min-width: 992px) {
+  .container {
+    max-width: 1100px !important; 
+  }
+}
