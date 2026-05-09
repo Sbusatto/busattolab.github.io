@@ -440,10 +440,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "projects-breast-to-brain-metastasis",
+            },},{id: "projects-breast-to-brain-metastasis",
           title: 'Breast to Brain Metastasis',
           description: "Investigating the role of cancer-derived EVs in the early steps of metastasis.",
           section: "Projects",handler: () => {
