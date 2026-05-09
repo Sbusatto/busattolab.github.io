@@ -1,20 +1,15 @@
 backend:
-  backend:
   name: git-gateway
   branch: main
 
-publish_mode: editorial_workflow
-media_folder: "assets/img"
-
-# This is the magic line that creates the Approval System!
+# Il sistema di approvazione per Sara
 publish_mode: editorial_workflow
 
-# This tells the dashboard where to save newly uploaded photos
+# Dove salvare le immagini
 media_folder: "assets/img"
 public_folder: "/assets/img"
 
-# Here we define what Sara's team is allowed to edit. 
-# We will start with just the Homepage for now to test it!
+# Le sezioni modificabili dal team
 collections:
   - name: "pages"
     label: "Website Pages"
