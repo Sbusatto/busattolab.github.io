@@ -11,33 +11,45 @@ public_folder: "/assets/img"
 
 # Le sezioni modificabili dal team
 collections:
-  # 1. PAGINE SINGOLE (Homepage, Teaching, CV)
+  # 1. LE TUE PAGINE SINGOLE (Trovate nella cartella _pages!)
   - name: "pages"
     label: "Website Pages"
     files:
-      - file: "index.md"
+      - file: "_pages/about.md"
         label: "Homepage (About)"
-        name: "home"
+        name: "about"
         fields:
           - {label: "Titolo", name: "title", widget: "string"}
           - {label: "Contenuto", name: "body", widget: "markdown"}
-      - file: "teaching.md"
-        label: "Teaching"
-        name: "teaching"
-        fields:
-          - {label: "Titolo", name: "title", widget: "string"}
-          - {label: "Contenuto", name: "body", widget: "markdown"}
-      - file: "cv.md"
+      - file: "_pages/cv.md"
         label: "Curriculum Vitae (CV)"
         name: "cv"
         fields:
           - {label: "Titolo", name: "title", widget: "string"}
           - {label: "Contenuto", name: "body", widget: "markdown"}
+      - file: "_pages/teaching.md"
+        label: "Teaching"
+        name: "teaching"
+        fields:
+          - {label: "Titolo", name: "title", widget: "string"}
+          - {label: "Contenuto", name: "body", widget: "markdown"}
+      - file: "_pages/patents.md"
+        label: "Patents"
+        name: "patents"
+        fields:
+          - {label: "Titolo", name: "title", widget: "string"}
+          - {label: "Contenuto", name: "body", widget: "markdown"}
+      - file: "_pages/profiles.md"
+        label: "Team Profiles"
+        name: "profiles"
+        fields:
+          - {label: "Titolo", name: "title", widget: "string"}
+          - {label: "Contenuto", name: "body", widget: "markdown"}
 
-  # 2. NEWS (Articoli con data)
+  # 2. NEWS (Punta alla tua cartella _news)
   - name: "news"
     label: "News"
-    folder: "_posts"
+    folder: "_news"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
@@ -45,33 +57,12 @@ collections:
       - {label: "Data", name: "date", widget: "datetime"}
       - {label: "Contenuto", name: "body", widget: "markdown"}
 
-  # 3. TEAM (Membri del laboratorio)
-  - name: "team"
-    label: "Team"
-    folder: "_team"
-    create: true
-    fields:
-      - {label: "Nome e Cognome", name: "title", widget: "string"}
-      - {label: "Ruolo", name: "role", widget: "string"}
-      - {label: "Foto", name: "image", widget: "image", required: false}
-      - {label: "Biografia", name: "body", widget: "markdown"}
-
-  # 4. PATENTS (Brevetti)
-  - name: "patents"
-    label: "Patents"
-    folder: "_patents"
-    create: true
-    fields:
-      - {label: "Titolo Brevetto", name: "title", widget: "string"}
-      - {label: "Anno/Data", name: "date", widget: "string", required: false}
-      - {label: "Descrizione", name: "body", widget: "markdown"}
-
-  # 5. PUBLICATIONS (Con supporto codice BibTeX)
-  - name: "publications"
-    label: "Publications"
-    folder: "_publications"
-    create: true
-    fields:
-      - {label: "Titolo", name: "title", widget: "string"}
-      - {label: "Data", name: "date", widget: "datetime", required: false}
-      - {label: "Codice BibTeX", name: "body", widget: "code", default_language: "bibtex", hint: "Incolla qui il tuo codice BibTeX"}
+  # 3. PUBBLICAZIONI (Punta direttamente al tuo file BibTeX!)
+  - name: "bibliography"
+    label: "Publications (BibTeX)"
+    files:
+      - file: "_bibliography/papers.bib"
+        label: "Codice Pubblicazioni"
+        name: "papers"
+        fields:
+          - {label: "Incolla qui le nuove pubblicazioni in formato BibTeX", name: "body", widget: "code", default_language: "bibtex"}
