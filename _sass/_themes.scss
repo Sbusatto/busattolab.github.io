@@ -54,7 +54,6 @@
   #light-toggle-light {
     display: none;
   }
-
   .only-light {
     display: block;
   }
@@ -223,4 +222,25 @@ html[data-theme-setting="light"] {
   margin-right: auto !important;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+/* ---------------------------------------------------
+   Task 2: Footer Accessibility & High Contrast
+--------------------------------------------------- */
+footer {
+  background-color: #2b2b2b !important; /* Professional Dark Gray */
+  color: #ffffff !important;            /* Pure White Text */
+  border-top: none !important;          /* Clean up the top border */
+}
+
+/* Ensure links in the footer are also highly visible */
+footer a {
+  color: #FF6B6B !important;            /* Lighter, accessible red for links */
+  text-decoration: none;
+  font-weight: 600;
+}
+
+footer a:hover {
+  color: #ffffff !important;            /* Turns white when hovered over */
+  text-decoration: underline;
 }
