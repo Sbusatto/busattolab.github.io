@@ -39,8 +39,6 @@ Our independent research lines are currently centered on three main pillars:
 
 ---
 
-<br>
-
 ### Patents
 We are committed to translating our bench discoveries into real-world technological and clinical applications.
 
