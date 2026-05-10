@@ -1,0 +1,50 @@
+---
+layout: default
+---
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-description">{{ page.description }}</p>
+  </header>
+
+  <article>
+    <h2>Principal Investigator</h2>
+    {% if page.pi %}
+    <div class="row align-items-center mb-4 pt-3">
+      <div class="col-sm-3 text-center">
+        <img src="{{ page.pi.photo | relative_url }}" class="img-fluid rounded-circle z-depth-1" style="max-width: 150px;">
+      </div>
+      <div class="col-sm-9">
+        <h4 style="color: #E3000F;">{{ page.pi.name }}</h4>
+        <h6 class="text-muted">{{ page.pi.role }}</h6>
+        <p>{{ page.pi.bio }}</p>
+        {% if page.pi.linkedin %}<a href="{{ page.pi.linkedin }}" target="_blank" style="color: #E3000F;"><i class="fab fa-linkedin fa-lg"></i> LinkedIn</a>{% endif %}
+      </div>
+    </div>
+    {% endif %}
+
+    <hr>
+
+    <h2>Current Lab Members</h2>
+    {% for member in page.members %}
+    <div class="row align-items-center mb-4">
+      <div class="col-sm-3 text-center">
+        {% if member.photo %}
+          <img src="{{ member.photo | relative_url }}" class="img-fluid rounded-circle z-depth-1" style="max-width: 120px;">
+        {% else %}
+          <div style="width: 100px; height: 100px; background-color: #eee; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; margin: 0 auto;"><i class="fas fa-user fa-2x"></i></div>
+        {% endif %}
+      </div>
+      <div class="col-sm-9">
+        <h5 style="color: #E3000F;">{{ member.name }}</h5>
+        <h6 class="text-muted">{{ member.role }}</h6>
+        <p>{{ member.joined }}</p>
+      </div>
+    </div>
+    {% endfor %}
+
+    {% if page.extra_text %}
+      <div class="extra-content">{{ page.extra_text | markdownify }}</div>
+    {% endif %}
+  </article>
+</div>

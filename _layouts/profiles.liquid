@@ -1,36 +1,35 @@
 ---
-layout: page
+layout: team
+title: Team
+permalink: /team/
+description: Meet the researchers at the Biological Nanoparticles Laboratory.
+nav: true
+nav_order: 2
+pi:
+  name: Dr. Sara Busatto
+  role: Principal Investigator
+  bio: Dr. Busatto is a Tenure-track Assistant Professor and head of the Biological Nanoparticles Laboratory within the Nanomedicine and Drug Targeting Unit at the Groningen Research Institute of Pharmacy. Her research focuses on the isolation, characterization, loading, and engineering of extracellular vesicles (EVs).
+  linkedin: https://www.linkedin.com/in/sara-busatto-402035140/
+  photo: /assets/img/prof_pic.jpg
+members:
+  - name: Sjoerd Idzerda
+    role: Ph.D. Student
+    joined: Joined January 2025
+    linkedin: "#"
+  - name: Marloes Kruk
+    role: Research Assistant
+    joined: Joined November 2024
+    linkedin: "#"
+  - name: Laura Sikkens
+    role: MSc. Student
+    joined: Joined January 2026
+    linkedin: "#"
+  - name: Sterre Metz
+    role: MSc. Student
+    joined: Joined January 2026
+    linkedin: "#"
+  - name: Kaj Mulder
+    role: MSc. Student
+    joined: Joined January 2026
+    linkedin: "#"
 ---
-<div class="post">
-  <article>
-    {% if page.profiles %}
-      {% for profile in page.profiles %}
-        <hr>
-        <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
-          {% if profile.image %}
-            {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
-            {% if profile.image_circular %}
-              {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-            {% else %}
-              {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
-            {% endif %}
-            {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
-            {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
-          {% endif %}
-          {% if profile.more_info %}
-            <div class="more-info">{{ profile.more_info }}</div>
-          {% endif %}
-        </div>
-
-        <div class="clearfix">
-          {% if profile.content %}
-            {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
-            {{ profile_content | markdownify }}
-          {% else %}
-            {{ content }}
-          {% endif %}
-        </div>
-      {% endfor %}
-    {% endif %}
-  </article>
-</div>
