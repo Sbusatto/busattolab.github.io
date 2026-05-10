@@ -1,19 +1,15 @@
 backend:
   name: git-gateway
   branch: main
-  
   publish_mode: editorial_workflow
 
-# Il sistema di approvazione per Sara
-publish_mode: editorial_workflow
-
-# Dove salvare le immagini
+# Where to save images
 media_folder: "assets/img"
 public_folder: "/assets/img"
 
-# Le sezioni modificabili dal team
+# The collections editable by the team
 collections:
-  # 1. LE TUE PAGINE SINGOLE (Trovate nella cartella _pages!)
+  # 1. YOUR SINGLE PAGES
   - name: "pages"
     label: "Website Pages"
     files:
@@ -21,50 +17,76 @@ collections:
         label: "Homepage (About)"
         name: "about"
         fields:
-          - {label: "Titolo", name: "title", widget: "string"}
-          - {label: "Contenuto", name: "body", widget: "markdown"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Content", name: "body", widget: "markdown"}
       - file: "_pages/cv.md"
         label: "Curriculum Vitae (CV)"
         name: "cv"
         fields:
-          - {label: "Titolo", name: "title", widget: "string"}
-          - {label: "Contenuto", name: "body", widget: "markdown"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Content", name: "body", widget: "markdown"}
       - file: "_pages/teaching.md"
         label: "Teaching"
         name: "teaching"
         fields:
-          - {label: "Titolo", name: "title", widget: "string"}
-          - {label: "Contenuto", name: "body", widget: "markdown"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Content", name: "body", widget: "markdown"}
       - file: "_pages/patents.md"
         label: "Patents"
         name: "patents"
         fields:
-          - {label: "Titolo", name: "title", widget: "string"}
-          - {label: "Contenuto", name: "body", widget: "markdown"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Content", name: "body", widget: "markdown"}
+      
+      # ---> MAGIC FOR THE TEAM PAGE <---
       - file: "_pages/profiles.md"
         label: "Team Profiles"
         name: "profiles"
         fields:
-          - {label: "Titolo", name: "title", widget: "string"}
-          - {label: "Contenuto", name: "body", widget: "markdown"}
+          - {label: "Page Title", name: "title", widget: "string"}
+          
+          # Section for PI
+          - label: "Principal Investigator (PI)"
+            name: "pi"
+            widget: "object"
+            fields:
+              - {label: "Name", name: "name", widget: "string"}
+              - {label: "Role", name: "role", widget: "string"}
+              - {label: "Short Bio", name: "bio", widget: "text"}
+              - {label: "LinkedIn URL", name: "linkedin", widget: "string", required: false}
+              - {label: "Profile Picture", name: "photo", widget: "image", required: false}
+              
+          # List for students/collaborators
+          - label: "Lab Members"
+            name: "members"
+            widget: "list"
+            label_singular: "Member"
+            fields:
+              - {label: "Name", name: "name", widget: "string"}
+              - {label: "Role (e.g., Ph.D. Student)", name: "role", widget: "string"}
+              - {label: "Joined Date (e.g., Joined Jan 2025)", name: "joined", widget: "string", required: false}
+              - {label: "LinkedIn URL", name: "linkedin", widget: "string", required: false}
+              - {label: "Profile Picture", name: "photo", widget: "image", required: false}
+              
+          - {label: "Extra Text (optional, appears at the bottom)", name: "body", widget: "markdown", required: false}
 
-  # 2. NEWS (Punta alla tua cartella _news)
+  # 2. NEWS
   - name: "news"
     label: "News"
     folder: "_news"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {label: "Titolo", name: "title", widget: "string"}
-      - {label: "Data", name: "date", widget: "datetime"}
-      - {label: "Contenuto", name: "body", widget: "markdown"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Content", name: "body", widget: "markdown"}
 
-  # 3. PUBBLICAZIONI (Punta direttamente al tuo file BibTeX!)
+  # 3. PUBLICATIONS
   - name: "bibliography"
     label: "Publications (BibTeX)"
     files:
       - file: "_bibliography/papers.bib"
-        label: "Codice Pubblicazioni"
+        label: "Publications Code"
         name: "papers"
         fields:
-          - {label: "Incolla qui le nuove pubblicazioni in formato BibTeX", name: "body", widget: "code", default_language: "bibtex"}
+          - {label: "Paste new publications in BibTeX format here", name: "body", widget: "code", default_language: "bibtex"}
