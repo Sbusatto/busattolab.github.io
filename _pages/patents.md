@@ -3,10 +3,8 @@ layout: page
 title: Patents
 permalink: /patents/
 nav: true
-nav_order: 3
+nav_order: 5
 ---
-
-## Patents
 
 We are committed to translating our bench discoveries into real-world technological and clinical applications.
 

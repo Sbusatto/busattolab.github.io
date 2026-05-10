@@ -1,13 +1,12 @@
 ---
 layout: page
-title: Join / Contact
+title: Contact
 permalink: /join/
-description: Information for prospective students, postdocs, and general inquiries.
+description:
 nav: true
-nav_order: 5
+nav_order: 10
 ---
 
-## Get in Touch
 Whether you are a motivated researcher looking to join the team or you simply want to reach out with a general inquiry, we would love to hear from you. 
 
 <div class="card z-depth-0 mt-4" style="background-color: var(--global-card-bg-color); border: 1px solid var(--global-divider-color); padding: 30px; border-radius: 8px;">

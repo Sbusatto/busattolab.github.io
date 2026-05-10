@@ -1,12 +1,11 @@
 ---
 layout: page
-title: repositories
+title: Repositories
 permalink: /repositories/
 nav: true
 nav_order: 6
 ---
 
-## Featured Code & Data
 
 **[Global Proteomic Analysis of Murine Cerebral Microvessels](https://github.com/Sbusatto/Global-Proteomic-Analysis-of-murine-cerebral-microvessels)**
 * **Platform:** GitHub

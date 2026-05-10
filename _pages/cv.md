@@ -1,17 +1,51 @@
 ---
 layout: page
-title: cv
+title: CV
 permalink: /cv/
-description: A summary of Dr. Busatto's professional experience, education, and skills.
+description: 
 nav: true
-nav_order: 7
+nav_order: 9
 ---
+<style>
+  /* Rende il testo giustificato e formale */
+  p {
+    text-align: justify;
+    line-height: 1.6;
+  }
 
-### Summary
+  /* Elegante linea di separazione sotto i titoli principali */
+  h2 {
+    margin-top: 40px !important;
+    margin-bottom: 20px !important;
+    border-bottom: 1px solid var(--global-divider-color, #eee);
+    padding-bottom: 8px;
+    font-weight: bold;
+  }
+
+  /* Distanzia leggermente i sottotitoli (ruoli) */
+  h3 {
+    margin-top: 25px !important;
+    margin-bottom: 10px !important;
+  }
+
+  /* Allinea meglio le liste puntate e giustifica anche loro */
+  ul {
+    text-align: justify;
+    padding-left: 25px;
+    margin-bottom: 30px;
+  }
+
+  li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+  }
+</style>
+
+## Summary
 Tenure-track Assistant Professor, independent investigator, and head of the Biological Nanoparticles Laboratory within the Nanomedicine and Drug Targeting Unit at the Groningen Research Institute of Pharmacy. Independent and driven researcher with proven results in the isolation, characterization, loading, and engineering of biological cell-derived nanoparticles, in particular, extracellular vesicles.
----
 
-### Professional Experience
+## Professional Experience
+
 **Tenure Track Assistant Professor**
 *University of Groningen, Groningen, The Netherlands* (11/2024 - Present)
 * Head of the Biological Nanoparticles Laboratory within the Nanomedicine and Drug Delivery Department.
@@ -33,9 +67,8 @@ Tenure-track Assistant Professor, independent investigator, and head of the Biol
 **Laboratory Technician**
 *Oxy-Gen Laboratory, Brescia, Italy* (08/2012 - 09/2013)
 
----
+## Education
 
-### Education
 **Ph.D. in Health Technology**
 *University of Brescia, Brescia, Italy* (11/2015 - 03/2019)
 * Advised by Prof. Paolo Bergese and Prof. Marco Rusnati.
@@ -49,17 +82,13 @@ Tenure-track Assistant Professor, independent investigator, and head of the Biol
 *University of Trieste, Trieste, Italy* (10/2008 - 11/2011)
 * Advised by Prof. Rossana Bussani.
 
----
-
-### Funding & Awards
+## Funding & Awards
 * **T32 Institutional Training Program:** Beth Israel Deaconess Medical Center, Harvard Medical School (08/2021 - Present).
 * **Best Poster Award:** Dana Farber Breast & Gynecologic Cancer Symposium (04/2023).
 * **AACR-Breast Cancer Research Foundation Scholar-in-Training Award:** (04/2022).
 * **Ph.D. Fellowship:** Italian Ministry of Education (11/2015 - 11/2018).
 
----
-
-### Leadership & Mentoring
+## Leadership & Mentoring
 * **Leading Member / Organizer:** Local Organization Committee for the Annual Meeting of the Netherlands Society of Extracellular Vesicles (2024 - Present).
 * **Co-Chair:** Boston Children's Hospital Postdoc Association Mentoring Committee (2020 - 2024).
 * **Co-Chair:** Boston Children's Hospital Green Lab Recycling Committee (2020 - 2024).

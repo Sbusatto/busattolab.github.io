@@ -1,10 +1,10 @@
 ---
 layout: page
-title: teaching
+title: Teaching
 permalink: /teaching/
-description: Courses, workshops, and lectures by Dr. Busatto.
+description:
 nav: true
-nav_order: 6
+nav_order: 7
 ---
 
 ## Upcoming & Current Courses

@@ -1,7 +1,9 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
+nav: true
+nav_order: 1
 ---
 
 <!-- Hides the default "Sara Busatto" title and subtitle -->

@@ -1,13 +1,12 @@
 ---
 layout: page
-title: media
+title: Media
 permalink: /media/
-description: Featured talks, presentations, and media appearances.
+description:
 nav: true
-nav_order: 6
+nav_order: 8
 ---
 
-## Featured Presentations
 
 <br>
 
@@ -17,5 +16,4 @@ nav_order: 6
 
 <br>
 <p class="text-muted text-center" style="font-size: 0.9em;">
-  <em>Latest research from the Busatto Lab.</em>
 </p>
