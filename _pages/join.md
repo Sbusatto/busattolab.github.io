@@ -55,6 +55,14 @@ Whether you are a motivated researcher looking to join the team or you simply wa
       <small class="form-text text-muted">Required for lab applications. Not required for general inquiries.</small>
     </div>
 
+    <div style="margin-bottom: 15px;">
+  <input type="checkbox" id="gdpr-consent" name="gdpr_consent" required>
+  <label for="gdpr-consent" style="font-size: 0.9em;">
+    I consent to the processing of my personal data in accordance with the 
+    <a href="/privacy/" target="_blank">Privacy Policy</a>.*
+  </label>
+</div>
+
     <button type="submit" class="btn z-depth-0 mt-4" style="background-color: #E3000F; color: white; border-radius: 4px; padding: 10px 20px; font-weight: bold;">Send Message</button>
   
   </form>
