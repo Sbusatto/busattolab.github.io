@@ -4,12 +4,33 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-about",
-    title: "about",
+    title: "About",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-news",
+  },{id: "nav-about",
+          title: "About",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/";
+          },
+        },{id: "nav-team",
+          title: "Team",
+          description: "Meet the researchers at the Biological Nanoparticles Laboratory.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/team/";
+          },
+        },{id: "nav-publications",
+          title: "Publications",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
+          },
+        },{id: "nav-news",
           title: "News",
           description: "",
           section: "Navigation",
@@ -23,54 +44,40 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/patents/";
           },
-        },{id: "nav-team",
-          title: "team",
-          description: "Meet the researchers at the Biological Nanoparticles Laboratory.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/team/";
-          },
-        },{id: "nav-publications",
-          title: "publications",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/publications/";
-          },
-        },{id: "nav-join-contact",
-          title: "Join / Contact",
-          description: "Information for prospective students, postdocs, and general inquiries.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/join/";
-          },
-        },{id: "nav-media",
-          title: "media",
-          description: "Featured talks, presentations, and media appearances.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/media/";
-          },
         },{id: "nav-repositories",
-          title: "repositories",
+          title: "Repositories",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
           },
         },{id: "nav-teaching",
-          title: "teaching",
-          description: "Courses, workshops, and lectures by Dr. Busatto.",
+          title: "Teaching",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
           },
+        },{id: "nav-media",
+          title: "Media",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/media/";
+          },
         },{id: "nav-cv",
-          title: "cv",
-          description: "A summary of Dr. Busatto&#39;s professional experience, education, and skills.",
+          title: "CV",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
+          },
+        },{id: "nav-contact",
+          title: "Contact",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/join/";
           },
         },{id: "post-a-post-with-plotly-js",
         
