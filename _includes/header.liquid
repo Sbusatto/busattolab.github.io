@@ -3,7 +3,7 @@
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
       
-      <!-- LOGO SWAPPER FOR LIGHT/DARK MODE -->
+      <!-- LOGO SWAPPER & CUSTOM TOOLTIP FOR LIGHT/DARK MODE -->
       <style>
         .logo-light { display: inline-block; }
         .logo-dark { display: none; }
@@ -15,10 +15,46 @@
         @media (min-width: 576px) {
           .navbar-collapse { justify-content: center !important; }
         }
+
+        /* --- CUSTOM TOOLTIP --- */
+        .logo-tooltip {
+          position: relative;
+        }
+        .logo-tooltip::after {
+          content: attr(data-tooltip);
+          position: absolute;
+          bottom: -30px; /* Posizionato sotto al logo */
+          left: 50%;
+          transform: translateX(-50%);
+          padding: 5px 10px;
+          border-radius: 6px;
+          font-size: 0.85rem;
+          white-space: nowrap;
+          opacity: 0;
+          pointer-events: none;
+          transition: opacity 0.3s ease;
+          
+          /* Colori di default (Light Mode): Sfondo scuro, testo chiaro */
+          background-color: #222;
+          color: #fff;
+          box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+        
+        /* Mostra l'etichetta quando passi col mouse */
+        .logo-tooltip:hover::after {
+          opacity: 1;
+        }
+        
+        /* Colori per la Dark Mode: Sfondo chiaro, testo scuro */
+        html[data-theme="dark"] .logo-tooltip::after {
+          background-color: #f8f9fa;
+          color: #000;
+          box-shadow: 0 2px 4px rgba(255,255,255,0.1);
+        }
       </style>
 
-    <!-- Clickable Lab Logo -->
-      <a class="navbar-brand" href="{{ site.baseurl }}/" style="display: flex; align-items: center; text-decoration: none;">
+      <!-- Clickable Lab Logo con Tooltip Custom -->
+      <a class="navbar-brand logo-tooltip" href="{{ site.baseurl }}/" data-tooltip="Back to Home" style="display: flex; align-items: center; text-decoration: none;">
         <img src="{{ '/assets/img/logo.png' | relative_url }}" height="70" class="logo-light" alt="Bionano Lab Logo">
         <img src="{{ '/assets/img/logo_dark.png' | relative_url }}" height="70" class="logo-dark" alt="Bionano Lab Logo">
       </a>
