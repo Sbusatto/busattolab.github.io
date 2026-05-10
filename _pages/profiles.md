@@ -99,4 +99,3 @@ We take pride in the rigorous technical training and career development of our l
 
 *(If you are a driven student or postdoc interested in joining our team, please see the **[Join the Lab]({{ '/join/' | relative_url }})** page.)*
 
-{{ content }}
