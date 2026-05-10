@@ -3,13 +3,10 @@ backend:
   branch: main
   publish_mode: editorial_workflow
 
-# Where to save images
 media_folder: "assets/img"
 public_folder: "/assets/img"
 
-# The collections editable by the team
 collections:
-  # 1. YOUR SINGLE PAGES
   - name: "pages"
     label: "Website Pages"
     files:
@@ -25,27 +22,13 @@ collections:
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Content", name: "body", widget: "markdown"}
-      - file: "_pages/teaching.md"
-        label: "Teaching"
-        name: "teaching"
-        fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Content", name: "body", widget: "markdown"}
-      - file: "_pages/patents.md"
-        label: "Patents"
-        name: "patents"
-        fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Content", name: "body", widget: "markdown"}
       
-      # ---> MAGIC FOR THE TEAM PAGE <---
+      # ---> TEAM PAGE (CLEAN VERSION) <---
       - file: "_pages/profiles.md"
         label: "Team Profiles"
         name: "profiles"
         fields:
           - {label: "Page Title", name: "title", widget: "string"}
-          
-          # Section for PI
           - label: "Principal Investigator (PI)"
             name: "pi"
             widget: "object"
@@ -55,22 +38,19 @@ collections:
               - {label: "Short Bio", name: "bio", widget: "text"}
               - {label: "LinkedIn URL", name: "linkedin", widget: "string", required: false}
               - {label: "Profile Picture", name: "photo", widget: "image", required: false}
-              
-          # List for students/collaborators
           - label: "Lab Members"
             name: "members"
             widget: "list"
             label_singular: "Member"
             fields:
               - {label: "Name", name: "name", widget: "string"}
-              - {label: "Role (e.g., Ph.D. Student)", name: "role", widget: "string"}
-              - {label: "Joined Date (e.g., Joined Jan 2025)", name: "joined", widget: "string", required: false}
+              - {label: "Role", name: "role", widget: "string"}
+              - {label: "Joined Date", name: "joined", widget: "string", required: false}
               - {label: "LinkedIn URL", name: "linkedin", widget: "string", required: false}
               - {label: "Profile Picture", name: "photo", widget: "image", required: false}
-              
-          - {label: "Extra Text (optional, appears at the bottom)", name: "body", widget: "markdown", required: false}
+          - {label: "Extra Footer Text", name: "extra_text", widget: "markdown", required: false}
 
-  # 2. NEWS
+  # ---> LE TUE NEWS <---
   - name: "news"
     label: "News"
     folder: "_news"
@@ -81,7 +61,7 @@ collections:
       - {label: "Date", name: "date", widget: "datetime"}
       - {label: "Content", name: "body", widget: "markdown"}
 
-  # 3. PUBLICATIONS
+  # ---> LE TUE PUBBLICAZIONI <---
   - name: "bibliography"
     label: "Publications (BibTeX)"
     files:
