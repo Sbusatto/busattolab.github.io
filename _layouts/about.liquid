@@ -2,41 +2,81 @@
 layout: default
 ---
 <div class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
-      {% else %}
-        {{ site.title }}
-      {% endif %}
-    </h1>
-    <p class="desc">{{ page.subtitle }}</p>
-  </header>
+  <!-- Hides the default "Sara Busatto" title and subtitle -->
+  <style>
+    .post-header { display: none !important; }
+
+    /* --- INIZIO EFFETTO CASCATA (RALLENTATO) --- */
+    #collapsePillars.collapsing {
+      transition: height 1.2s ease-in-out !important;
+    }
+
+    @keyframes fadeInUpCustom {
+      0% {
+        opacity: 0;
+        transform: translateY(40px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .pillar-anim {
+      opacity: 0;
+    }
+
+    #collapsePillars.collapsing .pillar-anim,
+    #collapsePillars.show .pillar-anim {
+      animation: fadeInUpCustom 1.2s cubic-bezier(0.25, 0.8, 0.25, 1) forwards;
+    }
+
+    #collapsePillars:not(.show):not(.collapsing) .pillar-anim {
+      opacity: 0;
+      animation: none;
+    }
+    /* --- FINE EFFETTO CASCATA --- */
+  </style>
 
   <article>
-    {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-        {% if page.profile.image %}
-          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-          {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-          {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
-          {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            cache_bust=true
-          %}
-        {% endif %}
-        {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
-        {% endif %}
+    <!-- Hero Logo Section -->
+    <div class="text-center mt-4 mb-5">
+      <img src="{{ '/assets/img/logo.png' | relative_url }}" alt="Bionano Lab Logo" class="img-fluid only-light" style="max-width: 400px; margin: 0 auto;">
+      <img src="{{ '/assets/img/logo_dark.png' | relative_url }}" alt="Bionano Lab Logo" class="img-fluid only-dark" style="max-width: 400px; margin: 0 auto;">
+    </div>
+
+    <!-- Centered Intro & Call to Action -->
+    <div style="max-width: 800px; margin: 0 auto; text-align: center; padding: 0 15px;">
+      <h4 style="font-weight: 700; margin-bottom: 20px;">{{ page.main_heading }}</h4>
+      
+      <div style="font-size: 1.1em; line-height: 1.6; color: var(--global-text-color);">
+        {{ page.main_description | markdownify }}
       </div>
-    {% endif %}
+      
+      <!-- Interactive Button to reveal the pillars -->
+      <a data-toggle="collapse" href="#collapsePillars" role="button" aria-expanded="false" aria-controls="collapsePillars" class="btn mt-4 mb-5" style="background-color: #E3000F; color: #ffffff; padding: 12px 30px; border-radius: 30px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; text-decoration: none; display: inline-block; box-shadow: 0 4px 6px rgba(227, 0, 15, 0.3);">Explore Our Research Pillars</a>
+    </div>
+
+    <!-- Hidden Research Pillars Section (Reveals on Click) -->
+    <div class="collapse" id="collapsePillars">
+      <h3 class="text-center mb-4 mt-2" style="font-weight: 700;">Our Research Pillars</h3>
+      <div class="row">
+        
+        {% for pillar in page.pillars %}
+        {% assign anim_delay = forloop.index0 | times: 500 %}
+        
+        <div class="col-sm-4 mb-4 pillar-anim" style="animation-delay: {{ anim_delay }}ms;">
+          <div class="card z-depth-0" style="background-color: var(--global-card-bg-color); border: 1px solid var(--global-divider-color); padding: 20px; border-radius: 8px;">
+            <h5 style="color: #E3000F; margin-bottom: 15px;"><b>{{ pillar.title }}</b></h5>
+            <div style="font-size: 0.9em; line-height: 1.5;">
+              {{ pillar.description | markdownify }}
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+        
+      </div>
+    </div>
 
     <div class="clearfix">{{ content }}</div>
 
@@ -68,7 +108,6 @@ layout: default
     {% if page.social %}
       <div class="social">
         <div class="contact-icons">{% social_links %}</div>
-
         <div class="contact-note">{{ site.contact_note }}</div>
       </div>
     {% endif %}
@@ -77,4 +116,32 @@ layout: default
       {% include newsletter.liquid center=true %}
     {% endif %}
   </article>
+
+  <!-- NUOVO: SCRIPT PER LO SCORRIMENTO AUTOMATICO -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      // Controlliamo se il sito usa jQuery (il tuo tema lo usa)
+      if (typeof jQuery !== 'undefined') {
+        $('#collapsePillars').on('show.bs.collapse', function () {
+          // Appena inizia ad aprirsi, aspetta un millisecondo e poi scorri giù dolcemente
+          setTimeout(function() {
+            $('html, body').animate({
+              // Lasciamo 80 pixel di margine in alto per non coprire il titolo con la barra di navigazione
+              scrollTop: $('#collapsePillars').offset().top - 80
+            }, 800); // 800 millisecondi di scorrimento morbido
+          }, 100);
+        });
+      } else {
+        // Piano B di emergenza (Javascript base)
+        var myCollapse = document.getElementById('collapsePillars');
+        if(myCollapse) {
+          myCollapse.addEventListener('show.bs.collapse', function() {
+            setTimeout(function() {
+              myCollapse.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }, 100);
+          });
+        }
+      }
+    });
+  </script>
 </div>

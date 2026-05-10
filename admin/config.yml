@@ -14,8 +14,16 @@ collections:
         label: "Homepage (About)"
         name: "about"
         fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Content", name: "body", widget: "markdown"}
+          - {label: "Page Name (Internal)", name: "title", widget: "string"}
+          - {label: "Main Heading", name: "main_heading", widget: "string"}
+          - {label: "Main Description", name: "main_description", widget: "markdown"}
+          - label: "Research Pillars (Tiles)"
+            name: "pillars"
+            widget: "list"
+            label_singular: "Pillar Tile"
+            fields:
+              - {label: "Tile Title", name: "title", widget: "string"}
+              - {label: "Tile Text", name: "description", widget: "markdown"}
       - file: "_pages/cv.md"
         label: "Curriculum Vitae (CV)"
         name: "cv"
