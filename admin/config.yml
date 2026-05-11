@@ -1,7 +1,9 @@
 backend:
   name: git-gateway
   branch: main
-  publish_mode: editorial_workflow
+
+# IL SEGRETO È QUI: Questa riga va allineata tutta a sinistra!
+publish_mode: editorial_workflow
 
 media_folder: "assets/img"
 public_folder: "/assets/img"
@@ -32,7 +34,6 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Content", name: "body", widget: "markdown"}
       
-      # ---> TEAM PAGE (CLEAN VERSION) <---
       - file: "_pages/profiles.md"
         label: "Team Profiles"
         name: "profiles"
@@ -59,10 +60,38 @@ collections:
               - {label: "Profile Picture", name: "photo", widget: "image", required: false}
           - {label: "Extra Footer Text", name: "extra_text", widget: "markdown", required: false}
 
-      # ---> MEDIA PAGE <---
       - file: "_pages/media.md"
         label: "Media"
         name: "media"
+        fields:
+          - {label: "Page Title", name: "title", widget: "string"}
+          - {label: "Content", name: "body", widget: "markdown"}
+
+      # ---> LE NUOVE PAGINE AGGIUNTE <---
+      - file: "_pages/teaching.md"
+        label: "Teaching"
+        name: "teaching"
+        fields:
+          - {label: "Page Title", name: "title", widget: "string"}
+          - {label: "Content", name: "body", widget: "markdown"}
+
+      - file: "_pages/patents.md"
+        label: "Patents"
+        name: "patents"
+        fields:
+          - {label: "Page Title", name: "title", widget: "string"}
+          - {label: "Content", name: "body", widget: "markdown"}
+
+      - file: "_pages/repositories.md"
+        label: "Repositories"
+        name: "repositories"
+        fields:
+          - {label: "Page Title", name: "title", widget: "string"}
+          - {label: "Content", name: "body", widget: "markdown"}
+
+      - file: "_pages/contact.md"
+        label: "Contact"
+        name: "contact"
         fields:
           - {label: "Page Title", name: "title", widget: "string"}
           - {label: "Content", name: "body", widget: "markdown"}
