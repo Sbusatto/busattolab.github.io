@@ -91,11 +91,4 @@ members:
 
 <hr style="margin: 2rem 0;">
 
-### Mentorship & Alumni Outcomes
-We take pride in the rigorous technical training and career development of our lab members. Former mentees have successfully advanced their careers, securing prestigious positions at world-renowned institutions:
-
-* **[Mentee First & Last Name]** – *Now at The Scripps Research Institute*
-* **[Mentee First & Last Name]** – *Now at Yale University*
-
-*(If you are a driven student or postdoc interested in joining our team, please see the **[Join the Lab]({{ '/join/' | relative_url }})** page.)*
 

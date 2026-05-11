@@ -11,7 +11,7 @@ collections:
     label: "Website Pages"
     files:
       - file: "_pages/about.md"
-        label: "Homepage (About)"
+        label: "Homepage (Our Research)"
         name: "about"
         fields:
           - {label: "Page Name (Internal)", name: "title", widget: "string"}
@@ -24,6 +24,7 @@ collections:
             fields:
               - {label: "Tile Title", name: "title", widget: "string"}
               - {label: "Tile Text", name: "description", widget: "markdown"}
+      
       - file: "_pages/cv.md"
         label: "Curriculum Vitae (CV)"
         name: "cv"
@@ -57,6 +58,14 @@ collections:
               - {label: "LinkedIn URL", name: "linkedin", widget: "string", required: false}
               - {label: "Profile Picture", name: "photo", widget: "image", required: false}
           - {label: "Extra Footer Text", name: "extra_text", widget: "markdown", required: false}
+
+      # ---> MEDIA PAGE <---
+      - file: "_pages/media.md"
+        label: "Media"
+        name: "media"
+        fields:
+          - {label: "Page Title", name: "title", widget: "string"}
+          - {label: "Content", name: "body", widget: "markdown"}
 
   # ---> LE TUE NEWS <---
   - name: "news"
