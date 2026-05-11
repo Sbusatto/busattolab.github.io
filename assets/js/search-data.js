@@ -447,6 +447,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
+            },},{id: "news-new-msc-student",
+          title: 'New MSc student',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-01-05-new-msc-student/";
             },},{id: "projects-breast-to-brain-metastasis",
           title: 'Breast to Brain Metastasis',
           description: "Investigating the role of cancer-derived EVs in the early steps of metastasis.",
