@@ -447,8 +447,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-new-msc-student",
-          title: 'New MSc student',
+            },},{id: "news-new-msc-students",
+          title: 'New MSc students',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-01-05-new-msc-student/";
