@@ -29,3 +29,14 @@ layout: default
     {% include giscus.liquid %}
   {% endif %}
 </div>
+
+{% if page.permalink == '/cv/' %}
+<style>
+  /* Stili esclusivi per il CV, nascosti al CMS */
+  p { text-align: justify; line-height: 1.6; }
+  h2 { margin-top: 40px !important; margin-bottom: 20px !important; border-bottom: 1px solid var(--global-divider-color, #eee); padding-bottom: 8px; font-weight: bold; }
+  h3 { margin-top: 25px !important; margin-bottom: 10px !important; }
+  ul { text-align: justify; margin-bottom: 20px; }
+  li { margin-bottom: 10px; }
+</style>
+{% endif %}

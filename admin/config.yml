@@ -2,7 +2,6 @@ backend:
   name: git-gateway
   branch: main
 
-# IL SEGRETO È QUI: Questa riga va allineata tutta a sinistra!
 publish_mode: editorial_workflow
 
 media_folder: "assets/img"
@@ -60,14 +59,21 @@ collections:
               - {label: "Profile Picture", name: "photo", widget: "image", required: false}
           - {label: "Extra Footer Text", name: "extra_text", widget: "markdown", required: false}
 
+      # ---> MEDIA PAGE: ORA È USER FRIENDLY! <---
       - file: "_pages/media.md"
         label: "Media"
         name: "media"
         fields:
           - {label: "Page Title", name: "title", widget: "string"}
-          - {label: "Content", name: "body", widget: "markdown"}
+          - {label: "Introduction Text", name: "description", widget: "markdown", required: false}
+          - label: "YouTube Videos"
+            name: "videos"
+            widget: "list"
+            label_singular: "Video"
+            fields:
+              - {label: "Video Title", name: "title", widget: "string"}
+              - {label: "YouTube Video ID (es. kM7J1PofqB8)", name: "youtube_id", widget: "string"}
 
-      # ---> LE NUOVE PAGINE AGGIUNTE <---
       - file: "_pages/teaching.md"
         label: "Teaching"
         name: "teaching"
@@ -96,7 +102,6 @@ collections:
           - {label: "Page Title", name: "title", widget: "string"}
           - {label: "Content", name: "body", widget: "markdown"}
 
-  # ---> LE TUE NEWS <---
   - name: "news"
     label: "News"
     folder: "_news"
@@ -107,7 +112,6 @@ collections:
       - {label: "Date", name: "date", widget: "datetime"}
       - {label: "Content", name: "body", widget: "markdown"}
 
-  # ---> LE TUE PUBBLICAZIONI <---
   - name: "bibliography"
     label: "Publications (BibTeX)"
     files:
