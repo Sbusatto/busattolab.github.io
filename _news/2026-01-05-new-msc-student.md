@@ -2,4 +2,4 @@
 title: New MSc students
 date: 2026-01-05T01:09:00.000+01:00
 ---
-##### We are pleased to welcome Laura Sikkens, Sterre Metz, and Kaj Mulder as our newest MSc students.
+###### A big welcome to Laura Sikkens, Sterre Metz, and Kaj Mulder, who are joining us as MSc students!
