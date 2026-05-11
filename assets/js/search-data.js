@@ -457,6 +457,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-03-02-new-msc-student/";
+            },},{id: "news-nlsev-2026-coming-to-groningen-for-the-first-time",
+          title: 'NLSEV 2026: Coming to Groningen for the First Time',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-05-12-nlsev-2026-coming-to-groningen-for-the-first-time/";
             },},{id: "projects-breast-to-brain-metastasis",
           title: 'Breast to Brain Metastasis',
           description: "Investigating the role of cancer-derived EVs in the early steps of metastasis.",
