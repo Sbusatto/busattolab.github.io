@@ -8,5 +8,12 @@ nav_order: 4
 
 ## Latest News
 
-* **January 2025:** Welcome to our new lab members: Ph.D. student Sjoerd Idzerda, and MSc students Laura Sikkens, Sterre Metz, and Kaj Mulder!
-* **November 2024:** Dr. Busatto officially joins the University of Groningen as a Tenure-Track Assistant Professor and head of the Biological Nanoparticles Laboratory.
+<!-- Questo motore legge automaticamente tutte le notizie dal CMS! -->
+<ul>
+  {% for post in site.posts %}
+    <li style="margin-bottom: 15px;">
+      <strong>{{ post.date | date: "%B %Y" }} - {{ post.title }}:</strong><br>
+      {{ post.content }}
+    </li>
+  {% endfor %}
+</ul>
