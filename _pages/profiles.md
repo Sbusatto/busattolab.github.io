@@ -1,17 +1,17 @@
 ---
-layout: page
-title: Team
-permalink: /team/
-description: Meet the researchers at the Biological Nanoparticles Laboratory.
 nav: true
+layout: page
+permalink: /team/
 nav_order: 2
+title: Team
 pi:
   name: Dr. Sara Busatto
   role: Principal Investigator
-  bio: Dr. Busatto is a Tenure-track Assistant Professor and head of the Biological
-    Nanoparticles Laboratory within the Nanomedicine and Drug Targeting Unit at the
-    Groningen Research Institute of Pharmacy. Her research focuses on the isolation,
-    characterization, loading, and engineering of extracellular vesicles (EVs).
+  bio: Dr. Busatto is a Tenure-track Assistant Professor and head of the
+    Biological Nanoparticles Laboratory within the Nanomedicine and Drug
+    Targeting Unit at the Groningen Research Institute of Pharmacy. Her research
+    focuses on the isolation, characterization, loading, and engineering of
+    extracellular vesicles (EVs).
   linkedin: https://www.linkedin.com/in/sara-busatto-402035140/
   photo: /assets/img/prof_pic.jpg
 members:
@@ -35,6 +35,10 @@ members:
     role: MSc. Student
     joined: Joined January 2026
     linkedin: "#"
+  - name: Adelina Deoanca
+    role: MSc. Student
+    joined: Joined March 2026
+description: Meet the researchers at the Biological Nanoparticles Laboratory.
 ---
 
 ## Principal Investigator
