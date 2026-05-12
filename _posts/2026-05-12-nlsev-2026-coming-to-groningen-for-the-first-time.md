@@ -1,7 +1,8 @@
 ---
 title: "NLSEV 2026: Coming to Groningen for the First Time"
 date: 2026-05-12T01:00:00.000+02:00
+ext_link: https://www.nlsev.nl/evdelta/wp/nlsev-2026/
 ---
-The city of Groningen is set to become the national hub for extracellular vesicle research in late 2026. We are proud to announce that the Netherlands Society for Extracellular Vesicles (NLSEV) annual meeting will be held here on November 26 and 27, 2026.
+This year, for the first time, the city of **Groningen** will become the national hub for extracellular vesicle (EV) research.
 
-This marks the first time this prestigious gathering will take place in Groningen. Dr. Sara Busatto, is honored to be serving as the Head of the Local Organizing Committee.
+We are proud to announce that the **annual meeting of the Netherlands Society for Extracellular Vesicles (NLSEV)** will take place here on **November 26–27, 2026**, with Dr. Sara Busatto serving as Head of the Local Organizing Committee.
