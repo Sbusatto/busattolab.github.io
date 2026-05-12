@@ -8,10 +8,15 @@
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
   <body>
-    <!-- Powers the Dashboard -->
+    <!-- 1. Diciamo al CMS di NON partire in automatico -->
+    <script>
+      window.CMS_MANUAL_INIT = true;
+    </script>
+
+    <!-- 2. Carichiamo il motore del CMS -->
     <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
     
-    <!-- Custom Format per far funzionare i file .bib -->
+    <!-- 3. Gli insegniamo il formato .bib E POI lo facciamo partire -->
     <script>
       CMS.registerFormat('bib', {
         extension: 'bib',
@@ -22,6 +27,9 @@
           return data.body || '';
         }
       });
+
+      // Ora che ha imparato il formato, gli diamo il via libera per avviarsi
+      CMS.init();
     </script>
 
     <!-- Automatically opens the dashboard after a successful login -->
