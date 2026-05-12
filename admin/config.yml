@@ -95,16 +95,9 @@ collections:
           - {label: "Page Title", name: "title", widget: "string"}
           - {label: "Content", name: "body", widget: "markdown"}
 
-      - file: "_pages/contact.md"
-        label: "Contact"
-        name: "contact"
-        fields:
-          - {label: "Page Title", name: "title", widget: "string"}
-          - {label: "Content", name: "body", widget: "markdown"}
-
   - name: "news"
     label: "News"
-    folder: "_post"
+    folder: "_posts"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
