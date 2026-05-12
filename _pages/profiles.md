@@ -19,10 +19,12 @@ members:
     role: Ph.D. Student
     joined: Joined January 2025
     linkedin: "#"
+    photo: ""
   - name: Marloes Kruk
     role: Research Assistant
     joined: Joined November 2024
     linkedin: "#"
+    photo: /assets/img/m-kruk-headshot.jpg
   - name: Laura Sikkens
     role: MSc. Student
     joined: Joined January 2026
