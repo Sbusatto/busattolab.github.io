@@ -121,4 +121,14 @@ collections:
         name: "papers"
         fields:
           - {label: "Do Not Edit", name: "title", widget: "hidden", default: "Bibliography"}
-          - {label: "Paste publications in BibTeX format here", name: "body", widget: "text"}
+          - {label: "Paste publications in BibTeX format here", name: "body", widget: "code", default_language: "bibtex", output_code_only: true}
+          
+  - name: "manual"
+    label: "📘 User Manual"
+    files:
+      - file: "admin/manual.md"
+        label: "How to use the CMS"
+        name: "guide"
+        fields:
+          - {label: "Do not edit", name: "title", widget: "hidden", default: "CMS Guide"}
+          - {label: "Scroll to read the instructions", name: "body", widget: "markdown"}
