@@ -104,7 +104,7 @@ collections:
 
   - name: "news"
     label: "News"
-    folder: "_news"
+    folder: "_post"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
