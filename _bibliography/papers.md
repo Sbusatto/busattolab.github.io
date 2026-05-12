@@ -1,3 +1,14 @@
+@article{busatto2018tangential,
+  title={Tangential flow filtration for highly efficient concentration of extracellular vesicles from large volumes of fluid},
+  author={Busatto, Sara and Vilanilam, George and Ticer, Taylor and Lin, Wen-Lang and Dickson, Dennis W and Shapiro, Shane and Bergese, Paolo and Wolfram, Joy},
+  journal={Cells},
+  volume={7},
+  number={12},
+  pages={273},
+  year={2018},
+  publisher={MDPI}
+}
+
 @article{Sesen2025,
   author  = {Sesen, J. and Martinez, T. and Busatto, S. and Poluben, L. and Nassour, H. and Stone, C. and Ashok, K. and Moses, M. A. and Smith, E. R. and Ghalali, A.},
   title   = {AZIN1 level is increased in medulloblastoma and correlates with c-Myc activity and tumor phenotype},
