@@ -116,10 +116,9 @@ collections:
   - name: "bibliography"
     label: "Publications (BibTeX)"
     files:
-      - file: "_bibliography/papers.bib"
+      - file: "_bibliography/papers.md"
         label: "Publications Code"
         name: "papers"
-        extension: "bib"
-        format: "bib"
         fields:
+          - {label: "Do Not Edit", name: "title", widget: "hidden", default: "Bibliography"}
           - {label: "Paste publications in BibTeX format here", name: "body", widget: "text"}
