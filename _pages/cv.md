@@ -6,41 +6,6 @@ description: null
 nav: true
 nav_order: 9
 ---
-<style>
-  /* Rende il testo giustificato e formale */
-  p {
-    text-align: justify;
-    line-height: 1.6;
-  }
-
-  /* Elegante linea di separazione sotto i titoli principali */
-  h2 {
-    margin-top: 40px !important;
-    margin-bottom: 20px !important;
-    border-bottom: 1px solid var(--global-divider-color, #eee);
-    padding-bottom: 8px;
-    font-weight: bold;
-  }
-
-  /* Distanzia leggermente i sottotitoli (ruoli) */
-  h3 {
-    margin-top: 25px !important;
-    margin-bottom: 10px !important;
-  }
-
-  /* Allinea meglio le liste puntate e giustifica anche loro */
-  ul {
-    text-align: justify;
-    padding-left: 25px;
-    margin-bottom: 30px;
-  }
-
-  li {
-    margin-bottom: 8px;
-    line-height: 1.5;
-  }
-</style>
-
 ## Summary
 
 Tenure-track Assistant Professor, independent investigator, and head of the Biological Nanoparticles Laboratory within the Nanomedicine and Drug Targeting Unit at the Groningen Research Institute of Pharmacy. Independent and driven researcher with proven results in the isolation, characterization, loading, and engineering of biological cell-derived nanoparticles, in particular, extracellular vesicles.
