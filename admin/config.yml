@@ -129,6 +129,6 @@ collections:
       - file: "admin/manual.md"
         label: "📖 How to use the CMS"
         name: "guide"
-        description: "👉 **[CLICK HERE TO OPEN THE FULL VISUAL GUIDE](/assets/cms-manual.pdf)**"
         fields:
           - {label: "Info", name: "title", widget: "hidden", default: "Guide"}
+          - {label: "Link to PDF", name: "body", widget: "markdown"}
