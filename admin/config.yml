@@ -126,7 +126,7 @@ collections:
   - name: "manual"
     label: "📘 User Manual"
     files:
-      - file: "admin/dummy.md"
+      - file: "admin/manual.md"
         label: "📖 How to use the CMS"
         name: "guide"
         description: "👉 **[CLICK HERE TO OPEN THE FULL VISUAL GUIDE](/assets/cms-manual.pdf)**"
