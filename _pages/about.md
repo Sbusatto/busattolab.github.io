@@ -37,8 +37,7 @@ pillars:
 
 
       A major focus of our research is understanding how EVs contribute to the establishment of the **brain pre-metastatic niche**—a supportive perivascular microenvironment that promotes the survival, colonization, and growth of metastatic cells within the brain.
-  - title: Cell-Derived Nanoparticles as the Next Frontier in Biocompatible Drug
-      Vehicles for Targeted Brain Delivery
+  - title: Biocompatible Drug Vehicles for Targeted Brain Delivery
     description: >
       Our research focuses on the development of innovative and scalable
       engineering strategies for biological cell-derived nanoparticles,
