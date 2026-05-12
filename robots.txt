@@ -1,4 +1,4 @@
 User-agent: *
-Disallow:
-
-Sitemap: https://busattolab.com/sitemap.xml
+Allow: /
+Disallow: /admin/
+Sitemap: https://www.busattolab.com/sitemap.xml
