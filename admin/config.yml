@@ -121,7 +121,7 @@ collections:
       - file: "_bibliography/papers.bib"
         label: "Publications Code"
         name: "papers"
-        extension: "bib"      # <--- Aggiunto per far riconoscere l'estensione
-        format: "raw"         # <--- Aggiunto per dirgli di salvarlo come testo grezzo
+        format: "frontmatter" # <--- IL TRUCCO È QUI: Diciamo al CMS di trattarlo come Markdown
         fields:
-          - {label: "Paste new publications in BibTeX format here", name: "body", widget: "code", default_language: "bibtex"}
+          - {label: "Non toccare", name: "title", widget: "hidden", default: "Bibliografia"}
+          - {label: "Incolla qui le pubblicazioni in formato BibTeX", name: "body", widget: "text"}
