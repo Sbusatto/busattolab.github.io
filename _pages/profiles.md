@@ -38,6 +38,9 @@ members:
   - name: Adelina Deoanca
     role: MSc. Student
     joined: Joined March 2026
+  - name: TT
+    role: BOSS
+    photo: /assets/img/hide_the_pain_harold_-andrás_arató-.jpg
 description: Meet the researchers at the Biological Nanoparticles Laboratory.
 ---
 
