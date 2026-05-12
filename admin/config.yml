@@ -95,6 +95,14 @@ collections:
           - {label: "Page Title", name: "title", widget: "string"}
           - {label: "Content", name: "body", widget: "markdown"}
 
+      # ---> AGGIUNTO IL PANNELLO PER LA PRIVACY POLICY <---
+      - file: "_pages/privacy.md"
+        label: "Privacy Policy"
+        name: "privacy"
+        fields:
+          - {label: "Page Title", name: "title", widget: "string"}
+          - {label: "Content", name: "body", widget: "markdown"}
+
   - name: "news"
     label: "News"
     folder: "_posts"
@@ -103,6 +111,8 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Image (Optional)", name: "image", widget: "image", required: false}
+      - {label: "External Link (Optional)", name: "ext_link", widget: "string", required: false}
       - {label: "Content", name: "body", widget: "markdown"}
 
   - name: "bibliography"
