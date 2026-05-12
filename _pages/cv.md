@@ -15,8 +15,8 @@ Tenure-track Assistant Professor, independent investigator, and head of the Biol
 **Tenure Track Assistant Professor**
 *University of Groningen, Groningen, The Netherlands* (11/2024 - Present)
 
-* Head of the Biological Nanoparticles Laboratory within the Nanomedicine and Drug Delivery Department.
-* Coordinates independent research lines on the role of cancer-derived EVs in breast to brain metastasis and the pre-metastatic niche.
+* Head of the Biological Nanoparticles Laboratory within the Nanomedicine and Drug Delivery Unit.
+* Coordinates independent research lines on the role of cancer-derived EVs in lung and breast to brain metastasis and the pre-metastatic niche.
 * Researches the loading and engineering of EV-mimetics as biocompatible actively targeted drug delivery vehicles.
 * Oversees lab operations, acts as Lab Safety Officer, and mentors Ph.D. and MSc students.
 
@@ -25,16 +25,13 @@ Tenure-track Assistant Professor, independent investigator, and head of the Biol
 
 * Advised by Prof. Marsha Moses.
 * Coordinated research on the early steps leading to breast to brain metastasis.
-* Developed novel engineering methods for EVs and EV-mimetics to target breast cancer cells.
+* Developed novel engineering methods for EVs and EV-mimetics to target cancer cells.
 
 **Postdoctoral Fellow**
 *Mayo Clinic, Jacksonville, FL* (06/2019 - 05/2020)
 
 * Advised by Prof. Joy Wolfram.
 * Executed research on the interaction between cancer-derived EVs, circulating low-density lipoproteins, and monocytes.
-
-**Laboratory Technician**
-*Oxy-Gen Laboratory, Brescia, Italy* (08/2012 - 09/2013)
 
 ## Education
 

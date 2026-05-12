@@ -16,13 +16,15 @@ pi:
   photo: /assets/img/prof_pic.jpg
 members:
   - name: Sjoerd Idzerda
-    role: Ph.D. Student
+    role: Ph.D. Candidate
     joined: Joined January 2025
     linkedin: "#"
+    photo: /assets/img/s.-idzerda-headshot.jpg
   - name: Marloes Kruk
     role: Research Assistant
     joined: Joined November 2024
     linkedin: "#"
+    photo: /assets/img/m-kruk-headshot.jpg
   - name: Laura Sikkens
     role: MSc. Student
     joined: Joined January 2026
@@ -35,6 +37,7 @@ members:
     role: MSc. Student
     joined: Joined January 2026
     linkedin: "#"
+    photo: /assets/img/photo-2026-05-12-11-20-18.jpg
   - name: Adelina Deoanca
     role: MSc. Student
     joined: Joined March 2026
