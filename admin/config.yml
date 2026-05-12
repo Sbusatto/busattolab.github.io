@@ -59,7 +59,6 @@ collections:
               - {label: "Profile Picture", name: "photo", widget: "image", required: false}
           - {label: "Extra Footer Text", name: "extra_text", widget: "markdown", required: false}
 
-      # ---> MEDIA PAGE: ORA È USER FRIENDLY! <---
       - file: "_pages/media.md"
         label: "Media"
         name: "media"
@@ -72,7 +71,7 @@ collections:
             label_singular: "Video"
             fields:
               - {label: "Video Title", name: "title", widget: "string"}
-              - {label: "YouTube Video ID (es. kM7J1PofqB8)", name: "youtube_id", widget: "string"}
+              - {label: "YouTube Video ID (e.g., kM7J1PofqB8)", name: "youtube_id", widget: "string"}
 
       - file: "_pages/teaching.md"
         label: "Teaching"
@@ -95,7 +94,6 @@ collections:
           - {label: "Page Title", name: "title", widget: "string"}
           - {label: "Content", name: "body", widget: "markdown"}
 
-      # ---> AGGIUNTO IL PANNELLO PER LA PRIVACY POLICY <---
       - file: "_pages/privacy.md"
         label: "Privacy Policy"
         name: "privacy"
@@ -121,7 +119,7 @@ collections:
       - file: "_bibliography/papers.bib"
         label: "Publications Code"
         name: "papers"
-        format: "frontmatter" # <--- IL TRUCCO È QUI: Diciamo al CMS di trattarlo come Markdown
+        format: "frontmatter" 
         fields:
-          - {label: "Non toccare", name: "title", widget: "hidden", default: "Bibliografia"}
-          - {label: "Incolla qui le pubblicazioni in formato BibTeX", name: "body", widget: "text"}
+          - {label: "Do Not Edit", name: "title", widget: "hidden", default: "Bibliography"}
+          - {label: "Paste publications in BibTeX format here", name: "body", widget: "text"}
