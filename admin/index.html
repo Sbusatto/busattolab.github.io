@@ -11,6 +11,19 @@
     <!-- Powers the Dashboard -->
     <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
     
+    <!-- Custom Format per far funzionare i file .bib -->
+    <script>
+      CMS.registerFormat('bib', {
+        extension: 'bib',
+        fromFile: function(content) {
+          return { body: content };
+        },
+        toFile: function(data) {
+          return data.body || '';
+        }
+      });
+    </script>
+
     <!-- Automatically opens the dashboard after a successful login -->
     <script>
       if (window.netlifyIdentity) {

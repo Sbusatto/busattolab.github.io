@@ -119,7 +119,7 @@ collections:
       - file: "_bibliography/papers.bib"
         label: "Publications Code"
         name: "papers"
-        format: "frontmatter" 
+        extension: "bib"
+        format: "bib"
         fields:
-          - {label: "Do Not Edit", name: "title", widget: "hidden", default: "Bibliography"}
           - {label: "Paste publications in BibTeX format here", name: "body", widget: "text"}
