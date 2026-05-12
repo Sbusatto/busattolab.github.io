@@ -4,6 +4,15 @@ title: Media
 permalink: /media/
 nav: true
 nav_order: 8
+videos:
+  - youtube_id: gUgL-omLBEI
+    title: " Jaco Botha & Sara Busatto: recent JEV papers on EVs and lipoproteins in
+      flow and cell culture assays"
+  - title: " Extracellular Vesicles as Diagnostic and Therapeutic Tools for Cancer"
+    youtube_id: Sp3rbZY9rj8
+  - title: " Sara Busatto: Brain metastases-derived EVs induce binding and
+      aggregation of low-density lipoprotein"
+    youtube_id: kM7J1PofqB8
 ---
 
 {{ page.description }}
