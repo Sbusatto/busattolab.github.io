@@ -37,6 +37,7 @@ members:
     role: MSc. Student
     joined: Joined January 2026
     linkedin: "#"
+    photo: /assets/img/photo-2026-05-12-11-20-18.jpg
   - name: Adelina Deoanca
     role: MSc. Student
     joined: Joined March 2026
