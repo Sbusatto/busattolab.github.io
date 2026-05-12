@@ -19,7 +19,7 @@ members:
     role: Ph.D. Student
     joined: Joined January 2025
     linkedin: "#"
-    photo: ""
+    photo: /assets/img/s.-idzerda-headshot.jpg
   - name: Marloes Kruk
     role: Research Assistant
     joined: Joined November 2024
