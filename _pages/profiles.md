@@ -16,7 +16,7 @@ pi:
   photo: /assets/img/prof_pic.jpg
 members:
   - name: Sjoerd Idzerda
-    role: Ph.D. Student
+    role: Ph.D. Candidate
     joined: Joined January 2025
     linkedin: "#"
     photo: /assets/img/s.-idzerda-headshot.jpg
