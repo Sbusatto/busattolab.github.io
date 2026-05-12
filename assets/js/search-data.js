@@ -109,7 +109,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2026/new-msc-student/";
+            window.location.href = "/blog/2026/new-msc-students/";
           
         },
       },{id: "books-the-godfather",
