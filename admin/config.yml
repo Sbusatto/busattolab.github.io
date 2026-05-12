@@ -121,5 +121,7 @@ collections:
       - file: "_bibliography/papers.bib"
         label: "Publications Code"
         name: "papers"
+        extension: "bib"      # <--- Aggiunto per far riconoscere l'estensione
+        format: "raw"         # <--- Aggiunto per dirgli di salvarlo come testo grezzo
         fields:
           - {label: "Paste new publications in BibTeX format here", name: "body", widget: "code", default_language: "bibtex"}
