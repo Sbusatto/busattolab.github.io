@@ -112,12 +112,7 @@ ninja.data = [{
             window.location.href = "/blog/2026/new-msc-students/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "projects-breast-to-brain-metastasis",
+      },{id: "projects-breast-to-brain-metastasis",
           title: 'Breast to Brain Metastasis',
           description: "Investigating the role of cancer-derived EVs in the early steps of metastasis.",
           section: "Projects",handler: () => {
@@ -132,11 +127,6 @@ ninja.data = [{
           description: "Studying the formation and composition of the biomolecular corona of cancer-derived EVs.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_corona/";
-            },},{id: "teachings-data-science-fundamentals",
-          title: 'Data Science Fundamentals',
-          description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
-          section: "Teachings",handler: () => {
-              window.location.href = "/teachings/data-science-fundamentals/";
             },},{
         id: 'social-cv',
         title: 'CV',
