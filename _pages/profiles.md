@@ -13,7 +13,7 @@ pi:
     focuses on the isolation, characterization, loading, and engineering of
     extracellular vesicles (EVs).
   linkedin: https://www.linkedin.com/in/sara-busatto-402035140/
-  photo: /assets/img/prof_pic.jpg
+  photo: /assets/img/14-img_9400.jpg
 members:
   - name: Sjoerd Idzerda
     role: Ph.D. Candidate
@@ -29,6 +29,7 @@ members:
     role: MSc. Student
     joined: Joined January 2026
     linkedin: "#"
+    photo: /assets/img/img_0591-1-1-.jpg
   - name: Sterre Metz
     role: MSc. Student
     joined: Joined January 2026
@@ -41,6 +42,7 @@ members:
   - name: Adelina Deoanca
     role: MSc. Student
     joined: Joined March 2026
+    photo: /assets/img/profi_foto_1-1-.jpg
 description: Meet the researchers at the Biological Nanoparticles Laboratory.
 ---
 
