@@ -34,6 +34,7 @@ members:
     role: MSc. Student
     joined: Joined January 2026
     linkedin: "#"
+    photo: /assets/img/img_1599.jpg
   - name: Kaj Mulder
     role: MSc. Student
     joined: Joined January 2026
