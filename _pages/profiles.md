@@ -44,6 +44,10 @@ members:
     role: MSc. Student
     joined: Joined March 2026
     photo: /assets/img/profi_foto_1-1-.jpg
+  - name: Nicolas Tassone
+    role: Visiting PhD Candidate
+    joined: 01/10/2026
+    photo: /assets/img/photo-2026-10-05-14-56-39.jpg
 description: Meet the researchers at the Biological Nanoparticles Laboratory.
 ---
 
