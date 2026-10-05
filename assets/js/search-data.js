@@ -90,6 +90,17 @@ ninja.data = [{
             window.location.href = "/blog/2026/nlsev-2026-coming-to-groningen-for-the-first-time/";
           
         },
+      },{id: "post-visiting-phd-student-joining-the-group",
+        
+          title: "Visiting PhD student joining the group!",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/visiting-phd-student-joining-the-group/";
+          
+        },
       },{id: "post-new-msc-student",
         
           title: "New MSc student",
