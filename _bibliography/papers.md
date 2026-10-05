@@ -1,3 +1,74 @@
+@article{Paolini2026BiomolecularCorona,
+  author  = {Paolini, Lucia and
+             Tassoni, Selene and
+             Al-Jamal, Khuloud T. and
+             Banquy, Xavier and
+             Beke-Somfai, Tamás and
+             Bergese, Paolo and
+             Boros, Fanni Annamária and
+             Bottini, Massimo and
+             Boyd, Ben and
+             Busatto, Sara and
+             Bussolati, Benedetta and
+             Canepa, Ester and
+             Castagnola, Valentina and
+             Clayton, Aled and
+             Dawson, Kenneth and
+             El-Andaloussi, Samir and
+             Försönits, András and
+             Fortunato, Orazio and
+             Frigerio, Roberto and
+             Gabrielli, Martina and
+             Grange, Cristina and
+             Guescini, Michele and
+             Hayashi, Yuya and
+             Hemmingsen, Jonas Klejs and
+             Kim, Seungmin and
+             Kinga, Ilyes and
+             Kyykallio, Heikki and
+             Lenassi, Metka and
+             Lima, Luize Goncalves and
+             Mahoney, M. Y. G. and
+             Vandenbroucke, Camille Menaceur and
+             Möller, Andreas and
+             Musicò, Angelo and
+             Nelissen, Inge and
+             Nogueira, Lucas Fabrício Bahia and
+             Nöhammer, Christa and
+             Parisse, Pietro and
+             Ramassamy, Charles and
+             Roballo, Kelly Cristine Santos and
+             Salvati, Anna and
+             Sancho-Albero, María and
+             Shelke, Ganesh and
+             Shirmast, Paniz and
+             Sonallya, Tasvilla and
+             Szigyártó, Imola Csilla and
+             van Eijndhoven, Monique A. J. and
+             Viitala, Tapani and
+             Wang, Shan and
+             Yan, Yan and
+             Zendrini, Andrea and
+             Buzás, Edit and
+             Radeghieri, Annalisa},
+  title   = {Biomolecular Corona of Extracellular Vesicles: Report on ISEV Workshop},
+  journal = {Journal of Extracellular Biology},
+  year    = {2026},
+  volume  = {5},
+  number  = {8},
+  pages   = {e70172},
+  doi     = {10.1002/jex2.70172}
+}
+
+@article{Chen2026PSEN1,
+  author  = {Chen, Tingting and Cañadas, Carolina Sagarminaga and Idzerda, Sjoerd and van der Koog, Luke and Zhang, Yuequ and Li, Xiaopeng and Wan, Xiaoyu and Marmolejo-Garza, Alejandro and Rafie, Karim and Nagelkerke, Anika and Trombetta-Lima, Marina and Lehtonen, Šárka and Koistinaho, Jari Eerik and Wolters, Justina C. and Busatto, Sara and Eisel, Ulrich L. M. and Dolga, Amalia M.},
+  title   = {PSEN1 {$\Delta$}E9 NPC-derived extracellular vesicles modulate neural and metabolic gene programs in brain organoids},
+  journal = {Acta Neuropathologica Communications},
+  year    = {2026},
+  doi     = {10.1186/s40478-026-02401-z},
+  url     = {https://doi.org/10.1186/s40478-026-02401-z}
+}
+
 @article{Sesen2025,
   author  = {Sesen, J. and Martinez, T. and Busatto, S. and Poluben, L. and Nassour, H. and Stone, C. and Ashok, K. and Moses, M. A. and Smith, E. R. and Ghalali, A.},
   title   = {AZIN1 level is increased in medulloblastoma and correlates with c-Myc activity and tumor phenotype},
